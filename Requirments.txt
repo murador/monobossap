@@ -1,0 +1,29 @@
+REQUIRMENTS 
+______________________________________________________
+[[ parte del base di MonoBoss]]
+
+1) Definizione di un moduleloader 
+   1a ) Inizializza il kernel
+   1b ) definizione di una console richiamabile da console dei comandi
+   1c ) carica i moduli dichiarati all'interno della directory passato in input
+
+2) Definire un modulo simile a JBossMSC :), questo modulo è responsabile per il caricamento dei servizi
+
+
+#### Forse non è essenziale 
+3) Definizione di un server mbean per la creazione di di oggetti da remoto, verificare la fattibilita
+   --  In alternativa è possibile usare NetMX che definisce lo stesso servizio , sc
+          
+
+Behaviour 
+__________________________________________________________
+
+All module and service can be loaded by this basic module. 
+  1) - Check the information passed in input by command line 
+    # MonoBoss.Shell.Main.exe -mp %PATH%\Modulesdir -s standalone	
+
+1 - nel file standalone.xml viene descritto tutti moduli richiesti, tra i quali ci deve essere MonoBoss.MSC 
+2 - Insieme all'assembly del modulo viene richiesto anche un file xml di nome module.xml 
+    che ne descrive le dipendenze  e le classi visibili all'esterno del modulo.
+
+

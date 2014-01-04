@@ -1,0 +1,4 @@
+C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll.mdb
+C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll
+C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
+C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll.mdb

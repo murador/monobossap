@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Shell.Main\Shell\MonoBossShell.cs">
+    <Files>
+      <File FileName="MonoBoss.Shell.Main\Shell\MonoBossShell.cs" Line="42" Column="4" />
+      <File FileName="MonoBoss.Shell.Main\MonoShell.cs" Line="30" Column="4" />
+      <File FileName="MonoBoss.Shell.Main\App.config" Line="9" Column="1" />
+      <File FileName="MonoBoss.Kernel\Configuration\ConfigurationReader.cs" Line="17" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MonoBoss.Kernel" expanded="True">
+            <Node name="Configuration" expanded="True" />
+          </Node>
+          <Node name="MonoBoss.Shell.Main" expanded="True">
+            <Node name="Shell" expanded="True">
+              <Node name="MonoBossShell.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
