@@ -6,6 +6,11 @@ namespace MonoBoss.As.Server
 	{
 		public Main ()
 		{
+
+			// creazione della 
+
+
+
 		}
 	}
 }

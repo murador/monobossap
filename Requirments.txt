@@ -29,7 +29,9 @@ All module and service can be loaded by this basic module.
   1) - Check the information passed in input by command line 
     -- in questa cosa 
     # MonoBoss.Shell.Main.exe -mp %PATH%\Modulesdir -s Org.Monoboss.As.Standalone
-    il file di configurazione non viene passato in input, ma gli deve essere indicato il primo modulo da caricare
+    il file di configurazione non viene passato in input, ma gli deve essere indicato il primo modulo da caricare 
+	     - (Org.MonoBoss.As.Standalone) all'interno deve esserci un metodo main che può essere richiamato
+		 
 	
 
 -- startup del server 
@@ -44,6 +46,38 @@ All module and service can be loaded by this basic module.
     che ne descrive le dipendenze  e le classi visibili all'esterno del modulo.
 
 
+== Planning è comportamento 
 
+ 1) Definizione del kernel di MonoBoss.  
+       - definizione del meccanismo di caricamento dei moduli per la gestione tramte il kernel *
+	      - test e definizione
+	   - definizione del modulo di startup da passare al server, ossia MonoBoss.App.Server che include 
+	   - una factory di boot per l'instanziazione del modulo MSC. 
+			- Per il modulo MSC creare un meccanismo di creazione dei servizi in locale e/o remoto 
+			- verificare se è possibile usare il meccanismo a plug-in della libreria Osgi 
+	   
+	   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
