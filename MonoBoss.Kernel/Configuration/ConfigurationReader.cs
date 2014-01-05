@@ -21,13 +21,18 @@ namespace MonoBoss.Kernel
 
 
 	/// <summary>
-	/// Module configuration reader.
+	/// M
 	/// </summary>
 	public class ModuleConfigurationReader: ConfigurationReader  {
 		#region implemented abstract members of ConfigurationReader
 
 		public override void load (bool validate)
 		{
+
+			if (filePath == null) {
+				throw new ArgumentNullException (filePath+ " - filePath is null" );
+			}
+
 			throw new NotImplementedException ();
 		}
 
@@ -49,23 +54,26 @@ namespace MonoBoss.Kernel
 
 		public override void load (bool validate)
 		{
+			if (filePath == null) {
+				throw new ArgumentNullException (filePath + " is null"); 
+			}
+
 			throw new NotImplementedException ();
 		}
-
 		protected override void validate ()
 		{
 			throw new NotImplementedException ();
 		}
-
 		#endregion
-
-
+		
+		/// <summary>
+		/// crea un istanza del server base ai parametri 
+		/// resti
+		/// </summary>
+		/// <returns>The server instance.</returns>
 		public ServerInstance getServerInstance() {
 
 			throw new NotImplementedException ();
-
-
-
 		}
 
 

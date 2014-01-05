@@ -36,9 +36,9 @@ namespace MonoBoss.Shell.Main
 		/// </summary>
 		public void printUsage () {
 
-			Console.WriteLine ("Usage: MonoBoss.Shell.Main -mp [PathToModuleDir] -s [pathToXmlFile] "); 
-			Console.WriteLine ("-help print this message"); 
-			Console.WriteLine ("-version print the version of program"); 
+			Console.WriteLine ("Usage:\n"+"\tMonoBoss.Shell.Main -mp [PathToModuleDir] -s [pathToXmlFile] "); 
+			Console.WriteLine ("\t-help print this message"); 
+			Console.WriteLine ("\t-version print the version of program"); 
 			Console.WriteLine ("Licence GPL "); 
 			Console.WriteLine ("for any suggestions write to murador.gianfranco@gmail.com"); 
 
@@ -85,7 +85,7 @@ namespace MonoBoss.Shell.Main
 				}
 
 				/// visualizza il messaggio di help 
-				if ( String.Compare(args[i], "-help" == 0 ) {
+				if ( String.Compare(args[i], "-help") == 0 ) {
 					printUsage(); 
 					System.Environment.Exit(0);
 				}
@@ -106,20 +106,32 @@ namespace MonoBoss.Shell.Main
 		public void startEnviroment() {
 	
 			try {
-				/// Inizilizza un primo module lodaer 
-				MonoBossKernel kernel =  MonoBossKernel.getInstance (); 
-				/// recupera il module loader 
-				ModuleLoader mloader =  kernel.getModuleLoader(); 
-				/// recupera l'instanza del server in base ai parametri
-			    
+						/// leggo il file di configurazione in input per la shell 
+						
+						ConfigurationManager cm = new DefaultConfigurationManager();
+						AppConfiguration aConfig  = cm.load();						
+						/// Inizilizza un primo module lodaer 
+						MonoBossKernel kernel =  MonoBossKernel.getInstance (); 
+						/// recupera il module loader 
+						ModuleLoader mloader =  kernel.getModuleLoader(); 
+						/// recupera l'instanza del server in base ai parametri
+						ServerConfigurationReader sr = new ServerConfigurationReader(); 
+						sr.filePath = pathToServerInstanceXML; 
+						sr.load(true); 
+					    ServerInstance s = sr.getServerInstance();
+
+						
+						
+
+						
+				 		
+
 			} catch (Exception ex ) {
 			
 				throw new ShellException (ex.ToString ()); 
 			}
 	
 		}
-
-
 
 	}
 }

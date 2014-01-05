@@ -41,6 +41,7 @@
     <Compile Include="Shell\MonoBossShell.cs" />
     <Compile Include="Shell\ConfigurationManager.cs" />
     <Compile Include="Shell\Exceptions\ShellException.cs" />
+    <Compile Include="Shell\Exceptions\AppConfigurations.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

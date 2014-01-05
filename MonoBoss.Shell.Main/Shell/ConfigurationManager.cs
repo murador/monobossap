@@ -1,13 +1,15 @@
 using System;
-
+using System.Configuration; 
 namespace MonoBoss.Shell.Main
 {
+	/// <summary>
+	/// Questa classe legge il file di configurazione in input
+	/// alla shell, non viene usato per leggere il file dei moduli 
+	/// </summary>
 	public abstract class ConfigurationManager
 	{
 		public ConfigurationManager (){}
-
-		public abstract void parseModuleFile(string path); 
-	
+		public abstract AppConfiguration load ();
 	}
 
 
@@ -16,16 +18,21 @@ namespace MonoBoss.Shell.Main
 	/// </summary>
 	public class DefaultConfigurationManager : ConfigurationManager {
 
+		/// <summary>
+		/// Recupera tutte le chiavi necessarie al boot 
+		/// </summary>
+	
 
-		#region implemented abstract members of ConfigurationManager
-		public override void parseModuleFile (string path)
-		{
+		public AppConfiguration load() {
 
+
+
+			return null; 
 
 
 
 		}
-		#endregion
+
 	}
 
 }

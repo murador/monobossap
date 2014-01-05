@@ -15,13 +15,20 @@ namespace MonoBoss.Kernel.Modules
 	/// <summary>
 	/// De
 	/// </summary>
+	[Serializable]
 	public class ModuleIndentifier {
-	
-
-
-
-
+		public string mainClass { get; set; }
+		public string
 	}
+
+
+
+	public class ModuleSpec {
+
+
+
+	} 
+
 
 }
 

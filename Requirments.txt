@@ -7,11 +7,18 @@ ______________________________________________________
    1b ) definizione di una console richiamabile da console dei comandi
    1c ) carica i moduli dichiarati all'interno della directory passato in input
 
-2) Definire un modulo simile a JBossMSC :), questo modulo è responsabile per il caricamento dei servizi
+2) Definire un modulo simile a JBossMSC :), questo modulo è responsabile per il caricamento dei servizi, investigare l'uso 
+   del framework OSGI per la creazione a runtime dei servizi
+  
 
+  |MonoBoss.Kernel| --> laod |MonoBoss.As.ServerModule| 
+					--> richiama |MonoBoss.MSC|        per il caricamento del contesto sui servizi 
+  
+  
 
-#### Forse non è essenziale 
-3) Definizione di un server mbean per la creazione di di oggetti da remoto, verificare la fattibilita
+#### Forse non è essenziale , ma è comunque un modo per  il caricamento dei servizi in modo 
+3) Definizione di un server mbean per la creazione di di oggetti da remoto, verificare la fattibilita. I moduli iniziali possono 
+   essere definiti in modo locali o tramite MX, ossia usando oggetti serializzati a runtime.
    --  In alternativa è possibile usare NetMX che definisce lo stesso servizio , sc
           
 
@@ -20,10 +27,23 @@ __________________________________________________________
 
 All module and service can be loaded by this basic module. 
   1) - Check the information passed in input by command line 
-    # MonoBoss.Shell.Main.exe -mp %PATH%\Modulesdir -s standalone	
+    -- in questa cosa 
+    # MonoBoss.Shell.Main.exe -mp %PATH%\Modulesdir -s Org.Monoboss.As.Standalone
+    il file di configurazione non viene passato in input, ma gli deve essere indicato il primo modulo da caricare
+	
+
+-- startup del server 
+   il MonoBoss.Shell.Main descrive il punto di accesso al server e serve principalmente per il caricamento 
+   dei moduli.  
+         Nella prima fase, viene passato la directory dalla quale recuperare i moduli ed il modulo 
+         iniziale da quale partite, il modulo iniziale si preoccupa di caricare MSC, ossia è il server 
+
 
 1 - nel file standalone.xml viene descritto tutti moduli richiesti, tra i quali ci deve essere MonoBoss.MSC 
 2 - Insieme all'assembly del modulo viene richiesto anche un file xml di nome module.xml 
     che ne descrive le dipendenze  e le classi visibili all'esterno del modulo.
 
 
+
+	
+	
