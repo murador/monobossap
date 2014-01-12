@@ -22,21 +22,21 @@ using MonoBoss.Kernel.Loaders;
 /// </summary>
 namespace MonoBoss.Shell.Main
 {
+
 	public class MonoBossShell
 	{
-
-
+	
 		const string VERSION = "1.0Valpha";
-		private string pathToServerInstanceXML; 
+		private string bootModule; 
 		private string pathToModuleDir; 
+		private string mode = null; 
 
 		/// <summary>
-		/// Stampa a video gli use case, 
-		///  
+		/// Stampa a video gli use case,
 		/// </summary>
-		public void printUsage () {
+		public void printUsage() {
 
-			Console.WriteLine ("Usage:\n"+"\tMonoBoss.Shell.Main -mp [PathToModuleDir] -s [pathToXmlFile] "); 
+			Console.WriteLine ("Usage:\n"+"\tMonoBoss.Shell.Main -mp [PathToModuleDir] -s bootModule -m [mode] "); 
 			Console.WriteLine ("\t-help print this message"); 
 			Console.WriteLine ("\t-version print the version of program"); 
 			Console.WriteLine ("Licence GPL "); 
@@ -44,9 +44,13 @@ namespace MonoBoss.Shell.Main
 
 		}
 	
-
+		/// <summary>
+		/// Initializes a new instance of the <see cref="MonoBoss.Shell.Main.MonoBossShell"/> class.
+		/// 
+		/// </summary>
 		public MonoBossShell ()
 		{
+			// default constructor service 
 		}
 	
 
@@ -77,10 +81,10 @@ namespace MonoBoss.Shell.Main
 
 				if (String.Compare (args [i], "-s") == 0) {
 					if (i + 1 > args.Length) {
-						Console.WriteLine ("Error, expected pathToXmlFile");
+						Console.WriteLine ("Error, expected bootModule namespace");
 						printUsage ();
 					} else {
-						pathToServerInstanceXML = args [i + 1];
+						bootModule = args [i + 1];
 					}
 				}
 
@@ -95,41 +99,66 @@ namespace MonoBoss.Shell.Main
 					Console.WriteLine("Version: " + VERSION);
 					System.Environment.Exit(0);
 				}
+
+				/// visualizza la versione
+				if (String.Compare(args[i], "-mode") == 0) {
+					if (i + 1 > args.Length) {
+						Console.WriteLine ("Error, expected mode flag");
+						printUsage ();
+					} else {
+						mode = args [i + 1];
+					}
+				}
+
 			
 			} 
 
 		}
 	
 		/// <summary>
-		/// Fa partire l'ambiente 
+		/// Fa+-* partire l'ambiente 
 		/// </summary>
 		public void startEnviroment() {
 	
 			try {
-						/// leggo il file di configurazione in input per la shell 
-						
-						ConfigurationManager cm = new DefaultConfigurationManager();
-						AppConfiguration aConfig  = cm.load();						
-						/// Inizilizza un primo module lodaer 
-						MonoBossKernel kernel =  MonoBossKernel.getInstance (); 
-						/// recupera il module loader 
-						ModuleLoader mloader =  kernel.getModuleLoader(); 
-						/// recupera l'instanza del server in base ai parametri
-						ServerConfigurationReader sr = new ServerConfigurationReader(); 
-						sr.filePath = pathToServerInstanceXML; 
-						sr.load(true); 
-					    ServerInstance s = sr.getServerInstance();
+				/// leggo il file di configurazione in input per la shell 
+				string standalone = "standalone.xml"; 
+				string domain = "domain.xml"; 
+				ConfigurationManager cm = new DefaultConfigurationManager();
+				AppConfiguration aConfig  = cm.load();						
+				/// Inizilizza un primo module lodaer 
+				MonoBossKernel kernel =  MonoBossKernel.getInstance (); 
+				/// recupera il module loader 
+				ModuleLoader mloader =  kernel.getModuleLoader(); 
+				/// recupera l'instanza del server in base ai parametri
+				ServerConfigurationReader sr = new ServerConfigurationReader(); 
+			    
+				if ( mode == null )  {
+				    sr.filePath = aConfig.configurationDir + standalone;     
+				} else {
+				 if ( mode == "standalone" ) {
+					sr.filePath = aConfig.configurationDir + standalone;     
+				} else {
+						if ( mode == "domain" ) {
+							sr.filePath = aConfig.configurationDir + domain;
+						} else {  
+							throw new ShellException("Mode not recognized"); 
+							System.Environment.Exit(-1); 
+						}	 
+					}
 
-						
-						
+				}
 
-						
-				 		
-
-			} catch (Exception ex ) {
+				 // carica il file e valida se è tutto correttamente
+				 // definito in base allo x-schema
+		         sr.load(true); 
+				 
+				 // 
+			     ServerInstance s = sr.getServerInstance();
 			
-				throw new ShellException (ex.ToString ()); 
-			}
+				} catch (Exception ex ) {
+					throw new ShellException (ex.ToString ()); 
+				}
 	
 		}
 

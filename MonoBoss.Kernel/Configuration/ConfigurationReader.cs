@@ -40,9 +40,7 @@ namespace MonoBoss.Kernel
 		{
 			throw new NotImplementedException ();
 		}
-
 		#endregion
-
 	}
 
 	/// <summary>
@@ -75,6 +73,14 @@ namespace MonoBoss.Kernel
 
 			throw new NotImplementedException ();
 		}
+
+
+		private void loadXSchema() {
+
+
+		} 
+
+
 
 
 	}

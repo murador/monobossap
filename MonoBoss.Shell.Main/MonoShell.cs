@@ -40,8 +40,12 @@ namespace MonoBoss.Shell.Main
 
 			// Fa partire la shell
 			MonoBossShell shell = new MonoBossShell (); 
+
+		
 			shell.processCommandLine(args); 
 			shell.startEnviroment (); 
+
+
 
 	
 		}

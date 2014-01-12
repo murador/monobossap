@@ -4,7 +4,16 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MonoBoss.MSC" selected="True" />
+          <Node name="MonoBoss.Kernel" expanded="True">
+            <Node name="Configuration" expanded="True">
+              <Node name="ConfigurationReader.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node name="MonoBoss.Shell.Main" expanded="True">
+            <Node name="Shell" expanded="True">
+              <Node name="Exceptions" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

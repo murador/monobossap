@@ -24,12 +24,8 @@ namespace MonoBoss.Shell.Main
 	
 
 		public AppConfiguration load() {
-
-
-
+		
 			return null; 
-
-
 
 		}
 
