@@ -52,7 +52,7 @@ All module and service can be loaded by this basic module.
        - definizione del meccanismo di caricamento dei moduli per la gestione tramte il kernel *
 	      - test e definizione
 	   - definizione del modulo di startup da passare al server, ossia MonoBoss.App.Server che include 
-	   - una factory di boot per l'instanziazione del modulo MSC. 
+	     una factory di boot per l'instanziazione del modulo MSC. 
 			- Per il modulo MSC creare un meccanismo di creazione dei servizi in locale e/o remoto 
 			- verificare se è possibile usare il meccanismo a plug-in della libreria Osgi 
 	   

@@ -143,14 +143,14 @@ namespace MonoBoss.Shell.Main
 							sr.filePath = aConfig.configurationDir + domain;
 						} else {  
 							throw new ShellException("Mode not recognized"); 
-							System.Environment.Exit(-1); 
+						
 						}	 
 					}
 
 				}
 
 				 // carica il file e valida se è tutto correttamente
-				 // definito in base allo x-schema
+				 // definito in base allo x-schema, in questa 
 		         sr.load(true); 
 				 
 				 // 

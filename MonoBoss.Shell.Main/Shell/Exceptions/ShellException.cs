@@ -14,6 +14,7 @@ namespace MonoBoss.Shell.Main
 
 		public ShellException(string message) : base(message) {
 			Console.WriteLine (message); 
+			System.Environment.Exit (-1);
 		}
 	}
 }

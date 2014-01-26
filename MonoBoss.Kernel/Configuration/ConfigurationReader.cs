@@ -55,7 +55,7 @@ namespace MonoBoss.Kernel
 			if (filePath == null) {
 				throw new ArgumentNullException (filePath + " is null"); 
 			}
-
+			// recuperare la definizione 
 			throw new NotImplementedException ();
 		}
 		protected override void validate ()

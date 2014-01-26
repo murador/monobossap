@@ -1,25 +1,26 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Shell.Main\Shell\MonoBossShell.cs">
+    <Files>
+      <File FileName="MonoBoss.Shell.Main\Shell\MonoBossShell.cs" Line="134" Column="30" />
+      <File FileName="d:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\Modules\Module.cs" Line="37" Column="7" />
+      <File FileName="d:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\Shell\ConfigurationManager.cs" Line="6" Column="50" />
+      <File FileName="MonoBoss.Shell.Main\Shell\Exceptions\ShellException.cs" Line="7" Column="16" />
+      <File FileName="MonoBoss.Kernel\Configuration\ConfigurationReader.cs" Line="68" Column="2" />
+      <File FileName="MonoBoss.As.Server\DomainServerMain.cs" Line="11" Column="4" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MonoBoss.Kernel" expanded="True">
-            <Node name="Configuration" expanded="True">
-              <Node name="ConfigurationReader.cs" selected="True" />
-            </Node>
-          </Node>
-          <Node name="MonoBoss.Shell.Main" expanded="True">
-            <Node name="Shell" expanded="True">
-              <Node name="Exceptions" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="MonoBoss.MSC" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\Shell\MonoBossShell.cs" line="107" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

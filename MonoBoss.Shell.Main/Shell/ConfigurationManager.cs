@@ -18,15 +18,13 @@ namespace MonoBoss.Shell.Main
 	/// </summary>
 	public class DefaultConfigurationManager : ConfigurationManager {
 
+
+
 		/// <summary>
 		/// Recupera tutte le chiavi necessarie al boot 
-		/// </summary>
-	
-
-		public AppConfiguration load() {
-		
-			return null; 
-
+		/// </summary> 
+		public override AppConfiguration load() {
+			return new AppConfiguration(); 
 		}
 
 	}
