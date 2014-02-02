@@ -4,18 +4,14 @@ ______________________________________________________
 
 1) Definizione di un moduleloader 
    1a ) Inizializza il kernel
-   1b ) definizione di una console richiamabile da console dei comandi
+   1b ) definizione di una console richiamabile da prompt dei comandi
    1c ) carica i moduli dichiarati all'interno della directory passato in input
 
 2) Definire un modulo simile a JBossMSC :), questo modulo è responsabile per il caricamento dei servizi, investigare l'uso 
    del framework OSGI per la creazione a runtime dei servizi
-  
-
   |MonoBoss.Kernel| --> laod |MonoBoss.As.ServerModule| 
-					--> richiama |MonoBoss.MSC|        per il caricamento del contesto sui servizi 
+		    --> richiama |MonoBoss.MSC| per il caricamento del contesto sui servizi 
   
-  
-
 #### Forse non è essenziale , ma è comunque un modo per  il caricamento dei servizi in modo 
 3) Definizione di un server mbean per la creazione di di oggetti da remoto, verificare la fattibilita. I moduli iniziali possono 
    essere definiti in modo locali o tramite MX, ossia usando oggetti serializzati a runtime.
@@ -30,7 +26,7 @@ All module and service can be loaded by this basic module.
     -- in questa cosa 
     # MonoBoss.Shell.Main.exe -mp %PATH%\Modulesdir -s Org.Monoboss.As.Standalone
     il file di configurazione non viene passato in input, ma gli deve essere indicato il primo modulo da caricare 
-	     - (Org.MonoBoss.As.Standalone) all'interno deve esserci un metodo main che può essere richiamato
+	 (Org.MonoBoss.As.Standalone) all'interno deve esserci un metodo main che può essere richiamato da reflection
 		 
 	
 
@@ -46,6 +42,7 @@ All module and service can be loaded by this basic module.
     che ne descrive le dipendenze  e le classi visibili all'esterno del modulo.
 
 
+
 == Planning è comportamento 
 
  1) Definizione del kernel di MonoBoss.  
@@ -57,9 +54,7 @@ All module and service can be loaded by this basic module.
 			- verificare se è possibile usare il meccanismo a plug-in della libreria Osgi 
 	   
 	   
-	
-	
-	
+ 
 	
 	
 	

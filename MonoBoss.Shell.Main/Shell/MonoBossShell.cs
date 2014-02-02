@@ -38,7 +38,10 @@ namespace MonoBoss.Shell.Main
 
 			Console.WriteLine ("Usage:\n"+"\tMonoBoss.Shell.Main -mp [PathToModuleDir] -s bootModule -m [mode] "); 
 			Console.WriteLine ("\t-help print this message"); 
-			Console.WriteLine ("\t-version print the version of program"); 
+			Console.WriteLine ("\t-mp path of module folder");
+			Console.WriteLine ("\t-s boostrap module");
+			Console.WriteLine ("\t-version version of Mono Module Loader");
+			Console.WriteLine ("\t-m Domani or StandAlone (deprecated)");
 			Console.WriteLine ("Licence GPL "); 
 			Console.WriteLine ("for any suggestions write to murador.gianfranco@gmail.com"); 
 
@@ -124,12 +127,17 @@ namespace MonoBoss.Shell.Main
 				/// leggo il file di configurazione in input per la shell 
 				string standalone = "standalone.xml"; 
 				string domain = "domain.xml"; 
+
+
 				ConfigurationManager cm = new DefaultConfigurationManager();
 				AppConfiguration aConfig  = cm.load();						
+
 				/// Inizilizza un primo module lodaer 
 				MonoBossKernel kernel =  MonoBossKernel.getInstance (); 
+
 				/// recupera il module loader 
 				ModuleLoader mloader =  kernel.getModuleLoader(); 
+
 				/// recupera l'instanza del server in base ai parametri
 				ServerConfigurationReader sr = new ServerConfigurationReader(); 
 			    
@@ -143,19 +151,18 @@ namespace MonoBoss.Shell.Main
 							sr.filePath = aConfig.configurationDir + domain;
 						} else {  
 							throw new ShellException("Mode not recognized"); 
-						
 						}	 
 					}
-
 				}
 
 				 // carica il file e valida se è tutto correttamente
 				 // definito in base allo x-schema, in questa 
 		         sr.load(true); 
 				 
-				 // 
+				 // Recupero un oggetto che mantiene le configurazioni 
+				 // che sono definite all'interno del file .xml ( standalone o domain) 
 			     ServerInstance s = sr.getServerInstance();
-			
+			     
 				} catch (Exception ex ) {
 					throw new ShellException (ex.ToString ()); 
 				}

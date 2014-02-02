@@ -18,8 +18,7 @@ namespace MonoBoss.Shell.Main
 	/// </summary>
 	public class DefaultConfigurationManager : ConfigurationManager {
 
-
-
+		
 		/// <summary>
 		/// Recupera tutte le chiavi necessarie al boot 
 		/// </summary> 

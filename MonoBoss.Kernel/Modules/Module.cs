@@ -58,7 +58,10 @@ namespace MonoBoss.Kernel.Modules
 	}
 
 
-
+	/// <summary>
+	/// Momorizza le specifiche del modulo, 
+	/// come rappresentante nel file del modulo
+	/// </summary>
 	public class ModuleSpec {
 
 

@@ -1,17 +1,16 @@
 using System;
 
+
+
 namespace MonoBoss.As.Server
 {
+
+	// la 
+
 	public class Main
 	{
-		public Main ()
-		{
-
-			// creazione della 
-
-
-
-		}
+	
+		public static void main(string[] args){}
 	}
 }
 

@@ -26,20 +26,6 @@ namespace MonoBoss.Kernel.Service
 		RUNNING = 4
 	}
 
-	public interface IMBossServer
-	{
-		Status getStatus ();
 
-		void startServer (string port);
-
-		void stopServer ();
-	}
-
-	public interface INBeanServer : IMBossServer
-	{
-		void registerNBean ();
-
-		object callMbean (string nbeanName);
-	}
 }
 

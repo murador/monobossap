@@ -40,11 +40,8 @@ namespace MonoBoss.Kernel
 
 		public abstract ModuleLoader getModuleLoader ();
 
-		// recupera un servizio tramite il modulo MSC
-		public abstract IMBossServer getService(string serviceName); 
-
-
-		[MethodImpl(MethodImplOptions.Synchronized)]
+	
+	    [MethodImpl(MethodImplOptions.Synchronized)]
 		public static MonoBossKernel getInstance(){
 
 			if (MonoBossKernel.instance != null) {
@@ -73,25 +70,10 @@ namespace MonoBoss.Kernel
 	public class DefaultMonoBossKernel : MonoBossKernel {
 
 		private ModuleLoader currentModuleLoader; 
-
-
-		/// <summary>
-		/// Fa riferimento al servizio per il caricamento
-		/// </summary>
-		/// <returns>The service.</returns>
-		/// <param name="serviceName">Service name.</param>
-		public override IMBossServer getService (string serviceName)
-		{
-			return null; 
-		}
-
 		public override void initialize ()
 		{
 			currentModuleLoader = DefaultBootModuleLoaderHolder.INSTANCE;
-
 			// Carica il modulo MSC
-
-
 		}
 		/// <summary>
 		/// Definisce un ModuleLoader di default
