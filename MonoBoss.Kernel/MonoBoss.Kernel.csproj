@@ -45,6 +45,7 @@
     <Compile Include="Loaders\DefaultBootModuleLoaderHolder.cs" />
     <Compile Include="Loaders\ModuleLoaderException.cs" />
     <Compile Include="Common\ServerInstance.cs" />
+    <Compile Include="Modules\ModuleSpec.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

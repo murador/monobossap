@@ -2,6 +2,12 @@ using System;
 
 namespace MonoBoss.Shell.Main
 {
+
+	/// <summary>
+	/// Questa classe serve per recuperare i dati all'interno del config dell'applicativo
+	/// Ossia a livello configurazione del programma shell.
+	/// </summary>
+	[Serializable]
 	public class AppConfiguration
 	{
 

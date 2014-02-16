@@ -22,6 +22,10 @@ namespace MonoBoss.Shell.Main
 	/// i moduli , la modalità di esecuzione 
 	///             ::> in standalone , la sola possibile esecuzioen per ora 
 	///             ::> domain , gestione su dominio di un cluster di server 
+	/// 
+	/// 
+	/// 
+	/// Copyright(C) - Gestione 
 	/// </summary>
 	class MonoBossShellMain
 	{
@@ -42,7 +46,12 @@ namespace MonoBoss.Shell.Main
 			MonoBossShell shell = new MonoBossShell (); 
 
 		
+			// processa la linea di comando 
 			shell.processCommandLine(args); 
+
+			// fa partire l'ambiente 
+			// in questa fase vengono letti i parametri di instanza 
+			// del server
 			shell.startEnviroment (); 
 
 

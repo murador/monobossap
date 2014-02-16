@@ -9,8 +9,7 @@ using System;
 /// MSC further enables resources injection into services
 /// and dependency management between services.
 /// 
-/// Ogni service ha un interfaccia comune definita nel modulo 
-/// del kernel.
+///  Questo metod
 /// 
 /// </summary>
 
@@ -19,7 +18,7 @@ namespace MonoBoss.MSC
 
 	/// <summary>
 	/// Interfaccia principale per la definizioe 
-	/// di un nuovo modulo
+	/// di un nuovo servizio
 	/// </summary>
 	public interface IService<T> {
 	}

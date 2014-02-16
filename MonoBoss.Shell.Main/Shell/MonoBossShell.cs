@@ -162,6 +162,10 @@ namespace MonoBoss.Shell.Main
 				 // Recupero un oggetto che mantiene le configurazioni 
 				 // che sono definite all'interno del file .xml ( standalone o domain) 
 			     ServerInstance s = sr.getServerInstance();
+
+				 // mloader.initLoader(); 
+
+
 			     
 				} catch (Exception ex ) {
 					throw new ShellException (ex.ToString ()); 

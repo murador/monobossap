@@ -47,7 +47,7 @@ All module and service can be loaded by this basic module.
 
  1) Definizione del kernel di MonoBoss.  
        - definizione del meccanismo di caricamento dei moduli per la gestione tramte il kernel *
-	      - test e definizione
+	      - **************** COMPLETARE LA DEFINIZIONE DEGLI IDENTIFICATORI DEI MODULI E DELLE SPECIFICHE *********************	
 	   - definizione del modulo di startup da passare al server, ossia MonoBoss.App.Server che include 
 	     una factory di boot per l'instanziazione del modulo MSC. 
 			- Per il modulo MSC creare un meccanismo di creazione dei servizi in locale e/o remoto 
