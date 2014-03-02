@@ -1,29 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Kernel\Modules\Module.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Kernel\Modules\ModuleSpec.cs">
     <Files>
-      <File FileName="MonoBoss.NBean.Service\NBeanService.cs" Line="13" Column="4" />
-      <File FileName="MonoBoss.MSC\IService.cs" Line="21" Column="26" />
-      <File FileName="MonoBoss.Shell.Main\MonoShell.cs" Line="37" Column="5" />
-      <File FileName="MonoBoss.Shell.Main\Shell\MonoBossShell.cs" Line="166" Column="6" />
-      <File FileName="MonoBoss.Shell.Main\Shell\AppConfigurations.cs" Line="8" Column="57" />
-      <File FileName="MonoBoss.Shell.Main\Shell\ConfigurationManager.cs" Line="7" Column="65" />
-      <File FileName="MonoBoss.Kernel\Configuration\ConfigurationReader.cs" Line="12" Column="22" />
-      <File FileName="MonoBoss.Kernel\Modules\Module.cs" Line="34" Column="3" />
+      <File FileName="MonoBoss.Kernel\Modules\ModuleSpec.cs" Line="37" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="MonoBoss.As.Server" expanded="True" />
           <Node name="MonoBoss.Kernel" expanded="True">
             <Node name="Modules" expanded="True">
-              <Node name="Module.cs" selected="True" />
+              <Node name="ModuleSpec.cs" selected="True" />
             </Node>
           </Node>
-          <Node name="MonoBoss.MSC" expanded="True">
-            <Node name="Value" expanded="True" />
-          </Node>
-          <Node name="MonoBoss.NBean.Service" expanded="True" />
           <Node name="MonoBoss.Shell.Main" expanded="True">
             <Node name="Shell" expanded="True" />
           </Node>

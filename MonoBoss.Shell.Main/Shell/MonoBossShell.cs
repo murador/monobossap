@@ -119,7 +119,8 @@ namespace MonoBoss.Shell.Main
 		}
 	
 		/// <summary>
-		/// Fa+-* partire l'ambiente 
+		/// Fa+-* partire l'ambiente, carica 
+		/// le configurazioni ed il primo modulo 
 		/// </summary>
 		public void startEnviroment() {
 	
@@ -163,7 +164,10 @@ namespace MonoBoss.Shell.Main
 				 // che sono definite all'interno del file .xml ( standalone o domain) 
 			     ServerInstance s = sr.getServerInstance();
 
-				 // mloader.initLoader(); 
+
+				// mloader.initLoader(); 
+				// mmloader.start(); 
+
 
 
 			     

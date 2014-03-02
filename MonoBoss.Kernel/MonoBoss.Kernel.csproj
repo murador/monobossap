@@ -35,7 +35,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Kernel.cs" />
-    <Compile Include="Loaders\ClassLoader.cs" />
     <Compile Include="Modules\Module.cs" />
     <Compile Include="Modules\Path.cs" />
     <Compile Include="Service\Service.cs" />
@@ -46,6 +45,11 @@
     <Compile Include="Loaders\ModuleLoaderException.cs" />
     <Compile Include="Common\ServerInstance.cs" />
     <Compile Include="Modules\ModuleSpec.cs" />
+    <Compile Include="Common\AssertionSetting.cs" />
+    <Compile Include="Modules\DependencySpec.cs" />
+    <Compile Include="Modules\ResourceLoaderSpec.cs" />
+    <Compile Include="Loaders\ModuleClassLoader.cs" />
+    <Compile Include="Modules\ModuleClassLoaderFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

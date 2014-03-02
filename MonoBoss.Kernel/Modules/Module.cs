@@ -3,8 +3,9 @@ using System.Text.RegularExpressions;
 namespace MonoBoss.Kernel.Modules
 {
 	/// <summary>
-	/// Definisce un classe per la generazione del modulo 
-	/// Vedere la classe Module all'interno del file JBossModule.jar 
+	/// A module is a unit of classes and other resources, along with the specification of what is imported and exporte
+	/// by this module from and to other modules.  Modules are created by {@link ModuleLoader}s which build modules from
+	/// various configuration information and resource roots.
 	/// </summary>
 
 	public sealed class Module {
