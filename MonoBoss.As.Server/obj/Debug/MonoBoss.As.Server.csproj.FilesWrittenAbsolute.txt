@@ -1,0 +1,4 @@
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.As.Server\bin\Debug\MonoBoss.As.Server.dll.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.As.Server\bin\Debug\MonoBoss.As.Server.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.As.Server\obj\Debug\MonoBoss.As.Server.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.As.Server\obj\Debug\MonoBoss.As.Server.dll.mdb

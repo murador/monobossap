@@ -2,22 +2,17 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Kernel\Modules\ModuleSpec.cs">
     <Files>
-      <File FileName="MonoBoss.Kernel\Modules\ModuleSpec.cs" Line="37" Column="4" />
+      <File FileName="MonoBoss.Shell.Main\MonoShell.cs" Line="38" Column="3" />
+      <File FileName="MonoBoss.Shell.Main\Shell\MonoBossShell.cs" Line="27" Column="3" />
+      <File FileName="MonoBoss.Kernel\Modules\DependencySpec.cs" Line="20" Column="3" />
+      <File FileName="MonoBoss.Kernel\Modules\ModuleClassLoaderFactory.cs" Line="14" Column="3" />
+      <File FileName="MonoBoss.Kernel\Modules\Path.cs" Line="10" Column="55" />
+      <File FileName="MonoBoss.Kernel\Modules\ModuleSpec.cs" Line="9" Column="15" />
+      <File FileName="MonoBoss.Kernel\Modules\PathFilter.cs" Line="4" Column="2" />
+      <File FileName="MonoBoss.Shell.Main\Shell\ConfigurationManager.cs" Line="11" Column="21" />
+      <File FileName="MonoBoss.Kernel\Modules\ResourceLoaderSpec.cs" Line="22" Column="2" />
+      <File FileName="MonoBoss.Kernel\Modules\ResourceLoader.cs" Line="12" Column="3" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="MonoBoss.Kernel" expanded="True">
-            <Node name="Modules" expanded="True">
-              <Node name="ModuleSpec.cs" selected="True" />
-            </Node>
-          </Node>
-          <Node name="MonoBoss.Shell.Main" expanded="True">
-            <Node name="Shell" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

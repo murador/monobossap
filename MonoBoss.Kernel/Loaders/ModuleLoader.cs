@@ -7,6 +7,8 @@ namespace MonoBoss.Kernel.Loaders
 	{
 		public ModuleLoader()
 		{
+	
+
 		}
 
 		public abstract void initLoader (ServerInstance ist);

@@ -1,5 +1,6 @@
 using System;
 using System.Text.RegularExpressions;
+using MonoBoss.Kernel.Loaders;
 namespace MonoBoss.Kernel.Modules
 {
 	/// <summary>
@@ -8,7 +9,17 @@ namespace MonoBoss.Kernel.Modules
 	/// various configuration information and resource roots.
 	/// </summary>
 
-	public sealed class Module {
+	public  sealed class Module {
+	
+		/// <summary>
+		/// Recupera il module loadere che deve essere usato
+		/// </summary>
+		/// <returns>The boot module loader.</returns>
+		public static ModuleLoader getBootModuleLoader() {
+	
+			throw new NotImplementedException ();
+		}
+		
 		void run(string[] args) {}
 	}
 
@@ -132,12 +143,7 @@ namespace MonoBoss.Kernel.Modules
 			}
 			return new ModuleIdentifier (name, slot); 
 		}
-
-
 	}
-
-
-
 
 
 }

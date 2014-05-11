@@ -21,7 +21,8 @@ namespace MonoBoss.Kernel
 
 
 	/// <summary>
-	/// M
+	/// Definisce una classe per poter leggere 
+	/// module.xml
 	/// </summary>
 	public class ModuleConfigurationReader: ConfigurationReader  {
 		#region implemented abstract members of ConfigurationReader
@@ -44,8 +45,7 @@ namespace MonoBoss.Kernel
 	}
 
 	/// <summary>
-	/// standalone or domain .xml :) 
-	/// 
+	/// standalone or domain .xml :)
 	/// </summary>
 	public class ServerConfigurationReader: ConfigurationReader {
 		#region implemented abstract members of ConfigurationReader
@@ -55,6 +55,9 @@ namespace MonoBoss.Kernel
 			if (filePath == null) {
 				throw new ArgumentNullException (filePath + " is null"); 
 			}
+
+
+
 			// recuperare la definizione 
 			throw new NotImplementedException ();
 		}

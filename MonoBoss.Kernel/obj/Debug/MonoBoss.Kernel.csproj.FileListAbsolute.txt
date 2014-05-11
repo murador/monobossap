@@ -1,0 +1,4 @@
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.pdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.pdb

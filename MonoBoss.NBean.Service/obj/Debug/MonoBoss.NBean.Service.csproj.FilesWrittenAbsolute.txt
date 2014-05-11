@@ -1,0 +1,4 @@
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.dll.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll.mdb

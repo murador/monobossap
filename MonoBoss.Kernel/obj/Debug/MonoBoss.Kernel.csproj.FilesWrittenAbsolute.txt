@@ -2,3 +2,7 @@ C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Ker
 C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll
 C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
 C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll.mdb

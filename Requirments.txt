@@ -43,11 +43,40 @@ All module and service can be loaded by this basic module.
 
 
 
-== Planning è comportamento 
-
+== Planning e comportamento 
  1) Definizione del kernel di MonoBoss.  
        - definizione del meccanismo di caricamento dei moduli per la gestione tramte il kernel *
-	      - **************** COMPLETARE LA DEFINIZIONE DEGLI IDENTIFICATORI DEI MODULI E DELLE SPECIFICHE *********************	
+	      - **************** COMPLETARE LA DEFINIZIONE DEGLI IDENTIFICATORI DEI MODULI E DELLE SPECIFICHE *************
+		  - Ogni modulo che deve essere caricato ha delle specififche che devono essere rispettatate, tra le quali 
+		  - le proprie dipendenze
+   [ ESEMPIO del file module.xml]
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  -->
+<module xmlns="urn:jboss:module:1.1" name="org.jboss.msc">
+
+    <main-class name="org.jboss.msc.Version"/>
+    <resources>
+        <resource-root path="jboss-msc-1.0.2.GA.jar"/>
+        <!-- Insert resources here -->
+    </resources>
+    <dependencies>
+        <module name="javax.api"/>
+        <module name="org.jboss.logging"/>
+        <module name="org.jboss.modules"/>
+        <!-- Optional deps -->
+        <module name="javax.inject.api" optional="true"/>
+        <module name="org.jboss.threads" optional="true"/>
+        <module name="org.jboss.vfs" optional="true"/>
+    </dependencies>
+</module>
+
+		
+		  
+
+		  
 	   - definizione del modulo di startup da passare al server, ossia MonoBoss.App.Server che include 
 	     una factory di boot per l'instanziazione del modulo MSC. 
 			- Per il modulo MSC creare un meccanismo di creazione dei servizi in locale e/o remoto 

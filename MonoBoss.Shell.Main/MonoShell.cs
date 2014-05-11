@@ -34,10 +34,9 @@ namespace MonoBoss.Shell.Main
 
 			// Inizialize the kernel  
 			// prompt the shell and execute the action request
-			//string verbs = 	ConfigurationManager.AppSettings ["verbs"]; 
+			//string verbs = ConfigurationManager.AppSettings ["verbs"]; 
 			// trovare un meccanismo per caricare la classe in modo dinamico per il momento  
 			// carico l'implementazione di default
-
 			// Deinisce la versione di default del kernel in base 
 			// ai parametri 
 			MonoBossKernel.setInstance (new DefaultMonoBossKernel ());
@@ -45,7 +44,6 @@ namespace MonoBoss.Shell.Main
 			// Fa partire la shell
 			MonoBossShell shell = new MonoBossShell (); 
 
-		
 			// processa la linea di comando 
 			shell.processCommandLine(args); 
 
@@ -54,9 +52,6 @@ namespace MonoBoss.Shell.Main
 			// del server
 			shell.startEnviroment (); 
 
-
-
-	
 		}
 	}
 }

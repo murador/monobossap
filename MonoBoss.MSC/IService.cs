@@ -7,9 +7,10 @@ using System;
 /// 
 /// Provide a way to install ,uninstall, and manage services used by a container.
 /// MSC further enables resources injection into services
-/// and dependency management between services.
+/// and dependency management between services. 
+/// Questo viene fatto prima del caricamenti di qualsiasi altro modulo. 
 /// 
-///  Questo metod
+/// 
 /// 
 /// </summary>
 

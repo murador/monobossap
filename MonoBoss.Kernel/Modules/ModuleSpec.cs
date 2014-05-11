@@ -5,6 +5,28 @@ using System.Collections.Generic;
 using MonoBoss.Kernel.Common;
 namespace MonoBoss.Kernel
 {
+
+	/// <summary>
+	/// Specifica di una classe 
+	/// </summary>
+	public class ClassSpec {
+
+
+	}
+
+
+	/// <summary>
+	/// Al posto del packagespec è1 possiible 
+	/// usare questa definitzione 
+	/// </summary>
+	public class NamespaceSpec {
+
+
+	}
+
+
+
+
 	/// <summary>
 	///  A {@code Module} specification which is used by a {@code ModuleLoader} to define new modules
 	/// </summary>
@@ -74,9 +96,6 @@ namespace MonoBoss.Kernel
 		}
 
 	}
-
-
-
 
 	/// <summary>
 	/// Alias builder

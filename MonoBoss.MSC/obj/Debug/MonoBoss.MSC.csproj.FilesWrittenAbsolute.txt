@@ -1,0 +1,4 @@
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.dll.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll.mdb

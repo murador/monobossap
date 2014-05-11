@@ -2,6 +2,7 @@ using System;
 
 namespace MonoBoss.As.Server
 {
+
 	public class DomainServerMain
 	{
 		public DomainServerMain ()
@@ -20,5 +21,24 @@ namespace MonoBoss.As.Server
 		}
 
 	}
+
+
+	/// <summary>
+	/// Avvio del servizio in fase di esecuzione standalone
+	/// </summary>
+
+	public class StandAloneMain {
+
+		public StandAloneMain() {
+		}
+
+
+		public static void main(string[] args) {
+		
+
+		}
+
+	}
+
 }
 

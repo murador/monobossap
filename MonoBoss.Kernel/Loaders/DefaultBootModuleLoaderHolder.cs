@@ -66,9 +66,7 @@ namespace MonoBoss.Kernel.Loaders
 					}catch(Exception ex) {
 						throw new ApplicationException ( "[Module Loader] " + ex.ToString());
 					}
-
-
-				
+							
 				} 
 
 			} 
@@ -77,9 +75,6 @@ namespace MonoBoss.Kernel.Loaders
 		
 		private DefaultBootModuleLoaderHolder ()
 		{
-
-
-
 
 		}
 	}

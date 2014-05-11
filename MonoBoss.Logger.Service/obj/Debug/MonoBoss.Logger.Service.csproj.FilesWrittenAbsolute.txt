@@ -1,0 +1,4 @@
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\bin\Debug\MonoBoss.Logger.Service.dll.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\bin\Debug\MonoBoss.Logger.Service.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\obj\Debug\MonoBoss.Logger.Service.dll
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\obj\Debug\MonoBoss.Logger.Service.dll.mdb

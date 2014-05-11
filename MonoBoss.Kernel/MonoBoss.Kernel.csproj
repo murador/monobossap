@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{AE83152D-9DD9-4571-92E6-78B32A70F042}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -35,7 +35,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Kernel.cs" />
-    <Compile Include="Modules\Module.cs" />
+    <Compile Include="Modules\Module.cs">
+      <DependentUpon>DependencySpec.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Path.cs" />
     <Compile Include="Service\Service.cs" />
     <Compile Include="Common\Command.cs" />
@@ -50,6 +52,8 @@
     <Compile Include="Modules\ResourceLoaderSpec.cs" />
     <Compile Include="Loaders\ModuleClassLoader.cs" />
     <Compile Include="Modules\ModuleClassLoaderFactory.cs" />
+    <Compile Include="Modules\PathFilter.cs" />
+    <Compile Include="Modules\ResourceLoader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

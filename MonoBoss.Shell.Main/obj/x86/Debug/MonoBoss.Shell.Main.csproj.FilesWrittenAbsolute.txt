@@ -1,0 +1,4 @@
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe.mdb
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.exe
+D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.exe.mdb
