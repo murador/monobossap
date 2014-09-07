@@ -156,13 +156,20 @@ namespace MonoBoss.Shell.Main
 					}
 				}
 
+                sr.configSchemaPath = aConfig.configurationDir + "\\schema";
+
 				 // carica il file e valida se è tutto correttamente
 				 // definito in base allo x-schema, in questa 
 		         sr.load(true); 
 				 
 				 // Recupero un oggetto che mantiene le configurazioni 
 				 // che sono definite all'interno del file .xml ( standalone o domain) 
-			     ServerInstance s = sr.getServerInstance();
+			     ServerInstance serverInstance  = sr.getServerInstance();
+                 
+
+
+
+
 
 
 				// mloader.initLoader(); 

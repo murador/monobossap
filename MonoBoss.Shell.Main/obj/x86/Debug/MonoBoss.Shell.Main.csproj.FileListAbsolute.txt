@@ -1,1 +1,3 @@
 D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe.config
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe.config
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.exe
