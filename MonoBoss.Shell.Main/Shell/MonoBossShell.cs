@@ -166,16 +166,8 @@ namespace MonoBoss.Shell.Main
 				 // che sono definite all'interno del file .xml ( standalone o domain) 
 			     ServerInstance serverInstance  = sr.getServerInstance();
                  
-
-
-
-
-
-
 				// mloader.initLoader(); 
 				// mmloader.start(); 
-
-
 
 			     
 				} catch (Exception ex ) {
