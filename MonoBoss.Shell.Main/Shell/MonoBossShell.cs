@@ -66,8 +66,7 @@ namespace MonoBoss.Shell.Main
 		
 			if (args.Length <= 1) {	
 				Console.WriteLine ("Error in arguments");
-				printUsage ();
-			
+				printUsage ();	
 			}
 
 			for (int i = 0; i < args.Length; i ++) {
@@ -129,7 +128,6 @@ namespace MonoBoss.Shell.Main
 				string standalone = "standalone.xml"; 
 				string domain = "domain.xml"; 
 
-
 				ConfigurationManager cm = new DefaultConfigurationManager();
 				AppConfiguration aConfig  = cm.load();						
 
@@ -167,7 +165,7 @@ namespace MonoBoss.Shell.Main
 			     ServerInstance serverInstance  = sr.getServerInstance();
                  
 				// mloader.initLoader(); 
-				// mmloader.start(); 
+			 	// mmloader.start(); 
 
 			     
 				} catch (Exception ex ) {

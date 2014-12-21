@@ -49,13 +49,12 @@ namespace MonoBoss.Kernel
 	}
 
 	/// <summary>
-	/// standalone or domain .xml :)
+	/// define 
 	/// </summary>
 	public class ServerConfigurationReader: ConfigurationReader {
 
 		#region implemented abstract members of ConfigurationReader
-
-        XmlTextReader xmlReader; 
+        private XmlTextReader xmlReader = null; 
 
 		public override void load (bool validate)
 		{
@@ -70,9 +69,14 @@ namespace MonoBoss.Kernel
             if ( validate ) 
                 this.validate(); 
 		}
-
-		protected override void validate ()
-		{
+		
+		/// <summary>
+		/// Valida il file standalone o domain.xml che 
+		/// </summary>
+		/// <exception cref='NotImplementedException'>
+		/// Is thrown when a requested operation is not implemented for a given type.
+		/// </exception>
+		protected override void validate(){
 			throw new NotImplementedException ();
 		}
 		#endregion
@@ -83,12 +87,7 @@ namespace MonoBoss.Kernel
 		/// </summary>
 		/// <returns>The server instance.</returns>
 		public ServerInstance getServerInstance() {
-
 			throw new NotImplementedException ();
-
-
-
-
 		}
 
 
@@ -98,8 +97,7 @@ namespace MonoBoss.Kernel
 
 		private void loadXSchema() {
             xmlReader = new XmlTextReader(configSchemaPath+"\\prova.xsd"); 
-
-
+			
 		} 
 
 
