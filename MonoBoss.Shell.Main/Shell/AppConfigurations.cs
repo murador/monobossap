@@ -6,6 +6,7 @@ namespace MonoBoss.Shell.Main
 	/// <summary>
 	/// Questa classe serve per recuperare i dati all'interno del config dell'applicativo
 	/// Ossia a livello configurazione del programma shell.
+    /// Verificare come devono essere legati
 	/// </summary>
 	[Serializable]
 	public class AppConfiguration

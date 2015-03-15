@@ -1,0 +1,4 @@
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\bin\Debug\MonoBoss.As.Server.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\bin\Debug\MonoBoss.As.Server.pdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\obj\Debug\MonoBoss.As.Server.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\obj\Debug\MonoBoss.As.Server.pdb

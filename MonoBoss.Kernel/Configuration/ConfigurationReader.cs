@@ -49,7 +49,8 @@ namespace MonoBoss.Kernel
 	}
 
 	/// <summary>
-	/// standalone or domain .xml :)
+	/// Definisce una classe per leggere il file di configurazione del server. 
+    /// In AP questo viene inserito all'interno del file standalone.xml e domain.xml
 	/// </summary>
 	public class ServerConfigurationReader: ConfigurationReader {
 
@@ -93,13 +94,11 @@ namespace MonoBoss.Kernel
 
 
         /// <summary>
-        /// Esegue un caricamento dello schema 
+        /// Questa funzione esegue il caricamento dello schema secondo quest'ordine. 
+        /// 
         /// </summary>
-
 		private void loadXSchema() {
             xmlReader = new XmlTextReader(configSchemaPath+"\\prova.xsd"); 
-
-
 		} 
 
 

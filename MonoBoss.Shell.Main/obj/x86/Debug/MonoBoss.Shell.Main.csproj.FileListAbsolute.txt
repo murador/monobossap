@@ -1,3 +1,9 @@
 D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe.config
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe.config
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.exe
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.pdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Kernel.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Kernel.pdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.csprojResolveAssemblyReference.cache
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.pdb
