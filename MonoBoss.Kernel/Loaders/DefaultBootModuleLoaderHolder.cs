@@ -20,7 +20,7 @@ namespace MonoBoss.Kernel.Loaders
 {
 	/// <summary>
 	/// Questo è il boot module loader holder, ossia carica il modulo loader 
-	/// stesso. o.O 
+	/// stesso. o.O , da qualche parte occorre cominciare
 	/// </summary>
 	public sealed class DefaultBootModuleLoaderHolder
 	{

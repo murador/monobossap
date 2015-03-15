@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- prima di cercare di parsare il contenuto 
-     --> 
-
-
+<!-- 
+  Validare il contenuto rispetto allo schema prima di recuperare 
+  i valori e fare del parsing in C# 
+--> 
 <server xmlns="urn:jboss:domain:1.1">
 
     <extensions>
