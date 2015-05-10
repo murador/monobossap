@@ -141,6 +141,9 @@ namespace MonoBoss.Shell.Main
 				ServerConfigurationReader sr = new ServerConfigurationReader(); 
 			    
 				if ( mode == null )  {
+                    // se non specifico la modalia di esecuzionea allora 
+                    // faccio partire il tutto in modalità standalone.
+                    mode = "standalone"; 
 				    sr.filePath = aConfig.configurationDir + standalone;     
 				} else {
 				 if ( mode == "standalone" ) {
@@ -158,7 +161,7 @@ namespace MonoBoss.Shell.Main
 
 				 // carica il file e valida se è tutto correttamente
 				 // definito in base allo x-schema, in questa 
-		         sr.load(true); 
+		         sr.load(true, mode); 
 				 
 				 // Recupero un oggetto che mantiene le configurazioni 
 				 // che sono definite all'interno del file .xml ( standalone o domain) 

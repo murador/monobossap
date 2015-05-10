@@ -15,8 +15,8 @@ This file is part of MonoBoss Application Server.
 using System;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using MonoBoss.Kernel.Service; 
-using MonoBoss.Kernel.Loaders; 
+using MonoBoss.Kernel.Service;
+using MonoBoss.Kernel.Loaders;
 
 /// <summary>
 /// Fornisce l'analo per JbossModule, ossia gestisce il class loading 
@@ -27,65 +27,78 @@ using MonoBoss.Kernel.Loaders;
 
 namespace MonoBoss.Kernel
 {
-	#region specification on kernel main module
-	/// <summary>
-	/// il kernel è unico,ossia non ne possono esistere più di uno per instanza d
-	/// del server
-	/// </summary>
-	public abstract class  MonoBossKernel {
+    #region specification on kernel main module
+    /// <summary>
+    /// il kernel è unico,ossia non ne possono esistere più di uno per instanza d
+    /// del server
+    /// </summary>
+    public abstract class MonoBossKernel
+    {
 
-		protected static MonoBossKernel instance = null; 
+        protected static MonoBossKernel instance = null;
 
-		public abstract void initialize ();
+        public abstract void initialize();
 
-		public abstract ModuleLoader getModuleLoader ();
+        public abstract ModuleLoader getModuleLoader();
 
-	
-	    [MethodImpl(MethodImplOptions.Synchronized)]
-		public static MonoBossKernel getInstance(){
 
-			if (MonoBossKernel.instance != null) {
-				return instance;
-			}else {
-				throw new NullReferenceException ("Set up the instance of Kernel"); 
-			} 
-		}
+        [MethodImpl(MethodImplOptions.Synchronized)]
+        public static MonoBossKernel getInstance()
+        {
 
-		[MethodImpl(MethodImplOptions.Synchronized)]
-		public static void setInstance(MonoBossKernel instance) {
-			if (MonoBossKernel.instance == null) {
-				MonoBossKernel.instance = instance; 
-			}
-		}
-		
-	}
+            if (MonoBossKernel.instance != null)
+            {
+                return instance;
+            }
+            else
+            {
+                throw new NullReferenceException("Set up the instance of Kernel");
+            }
+        }
 
-	#endregion
+        [MethodImpl(MethodImplOptions.Synchronized)]
+        public static void setInstance(MonoBossKernel instance)
+        {
+            if (MonoBossKernel.instance == null)
+            {
+                MonoBossKernel.instance = instance;
+            }
+        }
 
-	#region implemented abstract members of MonoBossKernel
+    }
 
-	/// <summary>
-	///  Implementazione di default 
-	/// </summary>
-	public class DefaultMonoBossKernel : MonoBossKernel {
+    #endregion
 
-		private ModuleLoader currentModuleLoader; 
-		public override void initialize ()
-		{
-			currentModuleLoader = DefaultBootModuleLoaderHolder.INSTANCE;
-			// Carica il modulo MSC
-		}
-		/// <summary>
-		/// Definisce un ModuleLoader di default
-		/// </summary>
-		/// <returns>The module loader.</returns>
-		public override ModuleLoader getModuleLoader ()
-		{
-			return currentModuleLoader; 
-		}
-	
-	}
-	#endregion
+    #region implemented abstract members of MonoBossKernel
+
+    /// <summary>
+    ///  Implementazione di default 
+    /// </summary>
+    public class DefaultMonoBossKernel : MonoBossKernel
+    {
+
+        private ModuleLoader currentModuleLoader;
+        public override void initialize()
+        {
+            currentModuleLoader = DefaultBootModuleLoaderHolder.INSTANCE;
+            // Carica il modulo MSC
+        }
+        /// <summary>
+        /// Definisce un ModuleLoader di default
+        /// </summary>
+        /// <returns>The module loader.</returns>
+        public override ModuleLoader getModuleLoader()
+        {
+
+            if (currentModuleLoader == null)
+            {
+                initialize();
+            }
+            return currentModuleLoader;
+        }
+
+    }
+    #endregion
 
 }
 

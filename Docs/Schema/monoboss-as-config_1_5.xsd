@@ -21,6 +21,7 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
    TODO: Note for monoboss - si riusa questo schema per la validazione dei file di configurazione
+   monoboss-as-config_1_5.xsd
   -->
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
