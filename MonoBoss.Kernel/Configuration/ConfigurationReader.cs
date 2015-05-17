@@ -65,9 +65,6 @@ namespace MonoBoss.Kernel
         private XmlReader serverConfigFile = null;
         private string fileschema_name = null;
 
-
-
-
         /// <summary>
         /// 15/3/2015 - viene aggiunto la modalità di caricamento 
         /// per distringuere tra il caricamento in modalità domino e il caricamento 
@@ -146,7 +143,7 @@ namespace MonoBoss.Kernel
 
                     // xmlReader = new XmlTextReader(configSchemaPath + "\\" + fileschema_name);
                     xmlSchemaSettings = new XmlReaderSettings();
-                    xmlSchemaSettings.Schemas.Add("http://org.monoboss.config.org/serverschema", configSchemaPath + "\\" + fileschema_name);
+                    xmlSchemaSettings.Schemas.Add("urn:monoboss:domain:1.5", configSchemaPath + "\\" + fileschema_name);
                     xmlSchemaSettings.ValidationType = ValidationType.Schema;
                     xmlSchemaSettings.ValidationEventHandler += new ValidationEventHandler(this.validate);
                     serverConfigFile = XmlReader.Create(filePath);
@@ -157,7 +154,7 @@ namespace MonoBoss.Kernel
                     // carichiamo lo stesso file ma è bene separare le due modalità 
                     // la cosa potrebbe cambiare in futuro , rispetto alla specifiche
                     xmlSchemaSettings = new XmlReaderSettings();
-                    xmlSchemaSettings.Schemas.Add("http://org.monoboss.config.org/serverschema", configSchemaPath + "\\" + fileschema_name);
+                    xmlSchemaSettings.Schemas.Add("urn:monoboss:domain:1.5", configSchemaPath + "\\" + fileschema_name);
                     xmlSchemaSettings.ValidationType = ValidationType.Schema;
                     xmlSchemaSettings.ValidationEventHandler += new ValidationEventHandler(this.validate);
                     serverConfigFile = XmlReader.Create(filePath);

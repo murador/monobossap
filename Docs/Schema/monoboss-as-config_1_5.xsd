@@ -25,8 +25,8 @@
   -->
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="urn:jboss:domain:1.5"
-           targetNamespace="urn:jboss:domain:1.5"
+           xmlns="urn:monoboss:domain:1.5"
+           targetNamespace="urn:monoboss:domain:1.5"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
         >

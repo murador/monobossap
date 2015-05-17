@@ -21,11 +21,9 @@ namespace MonoBoss.Shell.Main
 	/// i seguenti parametri , ossia il percorso dove risiedono 
 	/// i moduli , la modalità di esecuzione 
 	///             ::> in standalone , la sola possibile esecuzioen per ora 
-	///             ::> domain , gestione su dominio di un cluster di server 
-	/// 
-	/// 
-	/// 
-	/// Copyright(C) - Gestione 
+	///             ::> domain , gestione su dominio di un cluster di server
+	/// Copyright(C) - GWS 2015 
+    /// Microservice applications for Mono and MS .net Framework
 	/// </summary>
 	class MonoBossShellMain
 	{
@@ -34,7 +32,7 @@ namespace MonoBoss.Shell.Main
 
 			// Inizialize the kernel  
 			// prompt the shell and execute the action request
-			//string verbs = ConfigurationManager.AppSettings ["verbs"]; 
+			// 
 			// trovare un meccanismo per caricare la classe in modo dinamico per il momento  
 			// carico l'implementazione di default
 			// Deinisce la versione di default del kernel in base 

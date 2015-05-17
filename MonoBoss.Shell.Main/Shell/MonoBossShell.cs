@@ -143,21 +143,22 @@ namespace MonoBoss.Shell.Main
 				if ( mode == null )  {
                     // se non specifico la modalia di esecuzionea allora 
                     // faccio partire il tutto in modalità standalone.
-                    mode = "standalone"; 
-				    sr.filePath = aConfig.configurationDir + standalone;     
+                    mode = "standalone";
+                    sr.filePath = aConfig.configurationDir + "StandAlone\\Configuration\\" + standalone;     
 				} else {
 				 if ( mode == "standalone" ) {
-					sr.filePath = aConfig.configurationDir + standalone;     
+                     sr.filePath = aConfig.configurationDir + "StandAlone\\Configuration\\" + standalone;     
 				} else {
 						if ( mode == "domain" ) {
-							sr.filePath = aConfig.configurationDir + domain;
+                            sr.filePath = aConfig.configurationDir + "Domain\\Configuration\\" + domain;
 						} else {  
 							throw new ShellException("Mode not recognized"); 
 						}	 
 					}
 				}
 
-                sr.configSchemaPath = aConfig.configurationDir + "\\schema";
+                sr.configSchemaPath = aConfig.configurationDir + "\\Docs\\Schema\\";
+
 
 				 // carica il file e valida se è tutto correttamente
 				 // definito in base allo x-schema, in questa 
@@ -165,6 +166,7 @@ namespace MonoBoss.Shell.Main
 				 
 				 // Recupero un oggetto che mantiene le configurazioni 
 				 // che sono definite all'interno del file .xml ( standalone o domain) 
+                 // 17/05/2015 - TODO, continuare ad implementare in questo punto 
 			     ServerInstance serverInstance  = sr.getServerInstance();
                  
 				// mloader.initLoader(); 
