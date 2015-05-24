@@ -1,12 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
 <server xmlns="urn:monoboss:domain:1.1">
-
     <extensions>
         <extension module="org.monoboss.as.clustering.infinispan"/>
         <extension module="org.monoboss.as.weld"/>
     </extensions>
-
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">
@@ -29,7 +26,6 @@
             </http-interface>
         </management-interfaces>
     </management>
-
     <profile>
         <subsystem xmlns="urn:monoboss:domain:logging:1.1">
             <console-handler name="CONSOLE">
@@ -72,8 +68,7 @@
         <subsystem xmlns="urn:monoboss:domain:cmp:1.0"/>
         <subsystem xmlns="urn:monoboss:domain:configadmin:1.0"/>
         <subsystem xmlns="urn:monoboss:domain:datasources:1.0">
-            <datasources>
-               
+            <datasources>       
             </datasources>
         </subsystem>
         <subsystem xmlns="urn:monoboss:domain:deployment-scanner:1.1">
@@ -83,8 +78,7 @@
         <subsystem xmlns="urn:monoboss:domain:ejb3:1.2">
             
         </subsystem>
-        <subsystem xmlns="urn:monoboss:domain:infinispan:1.1" default-cache-container="hibernate">
-            
+        <subsystem xmlns="urn:monoboss:domain:infinispan:1.1" default-cache-container="hibernate">     
         </subsystem>
         <subsystem xmlns="urn:monoboss:domain:jaxr:1.0">
             <connection-factory jndi-name="java:monoboss/jaxr/ConnectionFactory"/>
@@ -192,9 +186,7 @@
                 </pre-handler-chain>
             </endpoint-config>
         </subsystem>
-        <subsystem xmlns="urn:monoboss:domain:weld:1.0"/>
     </profile>
-
     <interfaces>
         <interface name="management">
             <inet-address value="${monoboss.bind.address.management:127.0.0.1}"/>
@@ -208,7 +200,6 @@
             <inet-address value="127.0.0.1"/>
         </interface>
     </interfaces>
-
     <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${monoboss.socket.binding.port-offset:0}">
         <socket-binding name="http" port="8080"/>
         <socket-binding name="https" port="8443"/>

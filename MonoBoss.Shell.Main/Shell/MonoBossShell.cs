@@ -44,7 +44,6 @@ namespace MonoBoss.Shell.Main
 			Console.WriteLine ("\t-m Domain or StandAlone (deprecated)");
 			Console.WriteLine ("Licence GPL "); 
 			Console.WriteLine ("for any suggestions write to murador.gianfranco@gmail.com"); 
-
 		}
 	
 		/// <summary>
@@ -168,8 +167,12 @@ namespace MonoBoss.Shell.Main
 				 // che sono definite all'interno del file .xml ( standalone o domain) 
                  // 17/05/2015 - TODO, continuare ad implementare in questo punto 
 			     ServerInstance serverInstance  = sr.getServerInstance();
+
                  
-				// mloader.initLoader(); 
+                 mloader.bootLoader(serverInstance); 
+ 
+
+                // 
 			 	// mmloader.start(); 
 
 			     

@@ -64,6 +64,9 @@ namespace MonoBoss.Kernel
         private XmlReaderSettings xmlSchemaSettings = null;
         private XmlReader serverConfigFile = null;
         private string fileschema_name = null;
+        private string mode; 
+        private ServerInstance instance = null;
+
 
         /// <summary>
         /// 15/3/2015 - viene aggiunto la modalità di caricamento 
@@ -121,13 +124,21 @@ namespace MonoBoss.Kernel
         #endregion
 
         /// <summary>
-        /// crea un istanza del server base ai parametri 
-        /// resti
+        /// crea un istanza del server in base ai parametri. 
         /// </summary>
         /// <returns>The server instance.</returns>
         public ServerInstance getServerInstance()
         {
-            throw new NotImplementedException();
+
+            if (this.instance == null){
+                XmlDocument doc = new XmlDocument();
+                doc.Load(serverConfigFile);
+                // clumsy and ugly ... you know, fix later ... 
+                instance = new ServerInstance(doc, this.mode);
+                return instance; 
+            }else{
+                return instance;
+            }
         }
 
 
@@ -138,6 +149,7 @@ namespace MonoBoss.Kernel
         {
             try
             {
+                this.mode = mode; 
                 if (mode.Equals("standalone"))
                 {
 
@@ -160,6 +172,7 @@ namespace MonoBoss.Kernel
                     serverConfigFile = XmlReader.Create(filePath);
                 }
             }
+            
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);

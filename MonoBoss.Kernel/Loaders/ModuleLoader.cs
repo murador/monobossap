@@ -11,7 +11,14 @@ namespace MonoBoss.Kernel.Loaders
 
 		}
 
-		public abstract void initLoader (ServerInstance ist);
+        /// <summary>
+        /// Questo è il primo modulo che viene caricato
+        /// Diversamente da Wildfly lo standalone.xml come refernce al primo modulo 
+        /// caricato. Questo significa che , se è standalone faccio partire un modulo diverso da quello 
+        /// per il dominio. 
+        /// </summary>
+        /// <param name="ist"></param>
+		public abstract void bootLoader (ServerInstance ist);
 	}
 
 	/// <summary>
@@ -21,7 +28,7 @@ namespace MonoBoss.Kernel.Loaders
 	public class LocalModuloLoader : ModuleLoader {
 		#region implemented abstract members of ModuleLoader
 
-		public override void initLoader (ServerInstance ist)
+		public override void bootLoader (ServerInstance ist)
 		{
 			throw new NotImplementedException ();
 		}
@@ -38,7 +45,7 @@ namespace MonoBoss.Kernel.Loaders
 	public class AssemblyModuleLoader : ModuleLoader {
 		#region implemented abstract members of ModuleLoader
 
-		public override void initLoader (ServerInstance ist)
+		public override void bootLoader (ServerInstance ist)
 		{
 			throw new NotImplementedException ();
 		}
