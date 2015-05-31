@@ -2,6 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Schema;
 using System.Configuration;
+using System.Xml.Linq;
 /// <summary>
 /// Legge in input il file di configurazione 
 /// da usare per caricare i moduli richiesti
@@ -131,9 +132,8 @@ namespace MonoBoss.Kernel
         {
 
             if (this.instance == null){
-                XmlDocument doc = new XmlDocument();
-                doc.Load(serverConfigFile);
-                // clumsy and ugly ... you know, fix later ... 
+                XDocument doc =  XDocument.Load(serverConfigFile);
+                // clumsy and ugly ... I know, fix later ... 
                 instance = new ServerInstance(doc, this.mode);
                 return instance; 
             }else{
