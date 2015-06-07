@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+This file is part of MonoBoss Application Server.
+     MonoBoss Application Server is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+     MonoBoss Application Server is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with Nome-Programma.  If not, see <http://www.gnu.org/licenses/>.
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +41,7 @@ namespace MonoBoss.Kernel.Common
     public partial class Domain
     {
 
-        private extension[] extensionsField;
+        private Extension[] extensionsField;
 
         private boottimePropertyType[] systempropertiesField;
 
@@ -59,7 +72,7 @@ namespace MonoBoss.Kernel.Common
 
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("extension", IsNullable = false)]
-        public extension[] extensions
+        public Extension[] extensions
         {
             get
             {
@@ -236,7 +249,7 @@ namespace MonoBoss.Kernel.Common
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace = "urn:monoboss:domain:1.5")]
-    public partial class extension
+    public partial class Extension
     {
 
         private string moduleField;
@@ -7569,7 +7582,7 @@ namespace MonoBoss.Kernel.Common
     public partial class Server
     {
 
-        private extension[] extensionsField;
+        private Extension[] extensionsField;
 
         private propertyType[] systempropertiesField;
 
@@ -7593,7 +7606,7 @@ namespace MonoBoss.Kernel.Common
 
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("extension", IsNullable = false)]
-        public extension[] extensions
+        public Extension[] extensions
         {
             get
             {

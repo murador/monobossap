@@ -1,14 +1,17 @@
 REQUIRMENTS 
 ______________________________________________________
-[[ parte del base di MonoBoss]]
-
+[[ parte del BASE di MonoBoss]]
 
 All module and service can be loaded by this basic module. 
   1)# MonoBoss.Shell.Main.exe -mp %PATH%\Modulesdir -s Org.Monoboss.As.Standalone
     il file di configurazione non viene passato in input, ma gli deve essere indicato il primo modulo da caricare 
 	(Org.MonoBoss.As.Standalone) all'interno deve esserci un metodo main che può essere richiamato da reflection
-    NOTA: l'opzione -s è attualmente non implementata  e potrebbe non essere gestita in quanto. 
+    NOTA: l'opzione -s è attualmente non implementata  e potrebbe non essere gestita in quanto
 	
+    [[ DEV NOTE ]] 
+  2)# Per la creazione di una server instance stiamo correttamente definendo la gestione 
+      la creazione e definizione di varie sottosezione, per fa avviare sarebbe auspicabile fare affidamento 
+	  a WCF. Verificare e controllare se con Mono i riferimenti possono essere correttamente impostati. 
 		 	 
 
 -- startup del server 
@@ -23,25 +26,19 @@ All module and service can be loaded by this basic module.
 2 - Insieme all'assembly del modulo viene richiesto anche un file xml di nome module.xml 
     che ne descrive le dipendenze  e le classi visibili all'esterno del modulo.
 
-
-
 <!--
+  Module descriptor example. 
   -->
-<module xmlns="urn:jboss:module:1.1" name="org.jboss.msc">
+<module xmlns="urn:monoboss:module:1.1" name="Org.Monoboss.MSC">
 
     <main-class name="org.jboss.msc.Version"/>
     <resources>
         <resource-root path="jboss-msc-1.0.2.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
-    <dependencies>
-        <module name="javax.api"/>
-        <module name="org.jboss.logging"/>
-        <module name="org.jboss.modules"/>
+    <dependencies>       
         <!-- Optional deps -->
-        <module name="javax.inject.api" optional="true"/>
-        <module name="org.jboss.threads" optional="true"/>
-        <module name="org.jboss.vfs" optional="true"/>
+       <module name="org.jboss.wcf" optional="true"/>
     </dependencies>
 </module>
 

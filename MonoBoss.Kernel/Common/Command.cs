@@ -20,6 +20,7 @@ namespace MonoBoss.Kernel.Common
 	/// Generic class to manipulate command
 	/// every command has the following structure: 
 	///  --verb param1 param2 etc ... 
+    ///  Per il momento la shell è stata hardcoded
 	/// </summary>
 	public class Command
 	{
@@ -107,11 +108,14 @@ namespace MonoBoss.Kernel.Common
 	}
 
 	/// <summary>
-	/// Mboss server command.
+	/// Questa 
 	/// </summary>
 	public class MBossServerCommand : CommandLine
 	{
 		#region implemented abstract members of CommandLine
+        public MBossServerCommand() { 
+           
+        }
 	
 		public override void parseCommands (string[] args, string[] verbs)
 		{
@@ -121,7 +125,7 @@ namespace MonoBoss.Kernel.Common
 	}
 
 	/// <summary>
-	/// Mshell command.
+	/// MShellCommand è una shell di amministrazione 
 	/// </summary>
 	public class MShellCommand: CommandLine
 	{

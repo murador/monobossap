@@ -13,7 +13,8 @@ This file is part of MonoBoss Application Server.
 */
 using System;
 using System.Configuration;  
-using MonoBoss.Kernel; 
+using MonoBoss.Kernel;
+using MonoBoss.Logger.Service; 
 namespace MonoBoss.Shell.Main
 {
 	/// <summary>
@@ -38,6 +39,12 @@ namespace MonoBoss.Shell.Main
 			// Deinisce la versione di default del kernel in base 
 			// ai parametri 
 			MonoBossKernel.setInstance (new DefaultMonoBossKernel ());
+
+            // Fa partire ed inizializzare il logger, per questa prima versione 
+            // usiamo solamente ed unicamente  NLog, per come è stato implementato 
+            // possiamo usare un nuovo logger 
+            LoggerServiceFactory.setInstance(new NLoggerServiceFactory());
+            
 
 			// Fa partire la shell
 			MonoBossShell shell = new MonoBossShell (); 

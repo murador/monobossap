@@ -6,4 +6,3 @@ C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Kernel\bin\Debug\MonoBo
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.pdb
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.pdb
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.csprojResolveAssemblyReference.cache

@@ -31,9 +31,6 @@
     <Externalconsole>true</Externalconsole>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NLog">
-      <HintPath>..\NLog2.mono2\NLog.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -52,6 +49,10 @@
     <ProjectReference Include="..\MonoBoss.Kernel\MonoBoss.Kernel.csproj">
       <Project>{AE83152D-9DD9-4571-92E6-78B32A70F042}</Project>
       <Name>MonoBoss.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MonoBoss.Logger.Service\MonoBoss.Logger.Service.csproj">
+      <Project>{8dbf6e5f-7bb0-428c-aaf3-070c33d45848}</Project>
+      <Name>MonoBoss.Logger.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

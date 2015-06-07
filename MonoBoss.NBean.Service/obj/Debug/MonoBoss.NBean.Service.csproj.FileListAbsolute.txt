@@ -2,3 +2,4 @@ C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Debug
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.pdb
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.pdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.csprojResolveAssemblyReference.cache

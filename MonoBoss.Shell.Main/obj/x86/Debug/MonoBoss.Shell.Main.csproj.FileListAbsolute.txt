@@ -7,5 +7,5 @@ C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\Mo
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Kernel.pdb
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.csprojResolveAssemblyReference.cache
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.pdb
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\NLog.dll
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\NLog.xml
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Logger.Service.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Logger.Service.pdb
