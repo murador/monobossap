@@ -21,9 +21,9 @@ namespace MonoBoss.Shell.Main
 	/// Da linea di comando sono necessari 
 	/// i seguenti parametri , ossia il percorso dove risiedono 
 	/// i moduli , la modalità di esecuzione 
-	///             ::> in standalone , la sola possibile esecuzioen per ora 
-	///             ::> domain , gestione su dominio di un cluster di server
-	/// Copyright(C) - GWS 2015 
+	///             ::> in standalone   la sola possibile esecuzioen per ora 
+	///             ::> domain,         gestione su dominio di un cluster di server
+	/// Copyright(C) - Gianfranco Murador (C) 2015 
     /// Microservice applications for Mono and MS .net Framework
 	/// </summary>
 	class MonoBossShellMain

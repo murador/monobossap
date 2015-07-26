@@ -1,3 +1,4 @@
 monobossap
 ==========
-Simple and fast application server in Mono, freely inspired by Wildfly. 
+Microservice applications server for Mono and MS .net Framewor freely inspired by Wildfly. 
+ 

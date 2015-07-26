@@ -12,13 +12,11 @@ This file is part of MonoBoss Application Server.
     along with Nome-Programma.  If not, see <http://www.gnu.org/licenses/>.
 */
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace MonoBoss.Kernel.Configuration
 {
     class ConfigurationException: Exception 
     {
+
     }
 }

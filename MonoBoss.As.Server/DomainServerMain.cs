@@ -16,14 +16,15 @@ using System;
 namespace MonoBoss.As.Server
 {
     /// <summary>
-    /// Definisce il secondo modulo che viene caricato dopo il servizio MSC 
+    /// Definisce il secondo modulo che viene caricato dopo il servizio MSC. 
+    /// Secondo il comportamente predefinito in questo prima fase, vengono 
+    /// impostati e correttamente predefiniti 
     /// </summary>
     public class DomainServerMain
 	{
 		public DomainServerMain ()
 		{
 
-		
 		}
 
 		/// <summary>
@@ -32,7 +33,6 @@ namespace MonoBoss.As.Server
 		/// <param name="args">The command-line arguments.</param>
 		public static void main(string[] args) {
 
-		
 		}
 
 	}
@@ -41,7 +41,6 @@ namespace MonoBoss.As.Server
 	/// <summary>
 	/// Avvio del servizio in fase di esecuzione standalone
 	/// </summary>
-
 	public class StandAloneMain {
 
 		public StandAloneMain() {
@@ -50,7 +49,6 @@ namespace MonoBoss.As.Server
 
 		public static void main(string[] args) {
 		
-
 		}
 
 	}

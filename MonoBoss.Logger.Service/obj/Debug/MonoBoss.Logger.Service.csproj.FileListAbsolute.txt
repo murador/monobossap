@@ -4,3 +4,4 @@ C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Logger.Service\obj\Debu
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Logger.Service\obj\Debug\MonoBoss.Logger.Service.pdb
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Logger.Service\bin\Debug\NLog.dll
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Logger.Service\bin\Debug\NLog.xml
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Logger.Service\obj\Debug\MonoBoss.Logger.Service.csprojResolveAssemblyReference.cache

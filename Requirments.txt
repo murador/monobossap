@@ -12,8 +12,6 @@ All module and service can be loaded by this basic module.
   2)# Per la creazione di una server instance stiamo correttamente definendo la gestione 
       la creazione e definizione di varie sottosezione, per fa avviare sarebbe auspicabile fare affidamento 
 	  a WCF. Verificare e controllare se con Mono i riferimenti possono essere correttamente impostati. 
-		 	 
-
 -- startup del server 
    il MonoBoss.Shell.Main descrive il punto di accesso al server e serve principalmente per il caricamento 
    dei moduli.  
@@ -42,6 +40,14 @@ All module and service can be loaded by this basic module.
     </dependencies>
 </module>
 
+
+TODO LIST 
+============================================================================
+
+1. Finire l'implementazione della classe ServerInstance 
+   - Finire di parsare il file di configurazione del server
+    
+2. Completare l'implementazione del moduleloader
 
 	   
  

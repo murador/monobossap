@@ -21,9 +21,6 @@ using System;
 /// MSC further enables resources injection into services
 /// and dependency management between services. 
 /// Questo viene fatto prima del caricamenti di qualsiasi altro modulo. 
-/// 
-/// 
-/// 
 /// </summary>
 
 namespace MonoBoss.MSC

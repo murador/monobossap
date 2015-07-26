@@ -8,7 +8,6 @@ namespace MonoBoss.MSC
 	 * to produce.  The value may also be <em>time-sensitive</em>, such that it is only available under certain circumstances
 	 * (e.g. when the corresponding service is "up").
 	 */ 
-
 	public interface Value<T>
 	{
 		T getValue();

@@ -55,14 +55,15 @@ namespace MonoBoss.Kernel
                 IEnumerable<XAttribute> attlist =
                         from att in xEle.DescendantsAndSelf().Attributes()
                         select att;
-                
-                foreach (XAttribute att in attlist){
-                    Extension e = new Extension(); 
+
+                foreach (XAttribute att in attlist)
+                {
+                    Extension e = new Extension();
                     e.module = att.Value;
                     listext.Add(e);
                 }
             }
-            return listext; 
+            return listext;
         }
 
 
@@ -70,14 +71,60 @@ namespace MonoBoss.Kernel
         /// <summary>
         /// Ritorna i servizi di managment richiesti quali: 
         ///  - Autenticazione  ( securty-realm) 
-        ///  - audit-log ( ossia log abilitati per le perfomance) 
-        ///  - e le interfacce di gestione che devono essere definiti da dei socket bind 
+        ///   <security-realms>
+        ///    <security-realm name="ManagementRealm">
+        ///        <authentication>
+        ///            <properties path="mgmt-users.properties" relative-to="monoboss.server.config.dir"/>
+        ///            </authentication
+        ///            </security-realm>
+        ///            <security-realm name="ApplicationRealm">
+        ///       <authentication>
+        ///            <properties path="application-users.properties" relative-to="monoboss.server.config.dir"/>
+        ///      </authentication>
+        ///  </security-realm>
+        ///</security-realms>
         /// </summary>
-        /// <returns>Ritorna una lista di Managment per il server</returns>
-        public List<domainmanagementType> getRequiredManagment() {
-            throw new NotImplementedException("Not implemented yet"); 
-        }
+        /// NOTA: per il momento non viene scavato l'intera possibilità di autenticazione e autorizzazione 
+        /// in quanto le possibilità sono molte e difficili da gestire
+        /// <returns>Ritorna una lista di Realm di Sicurezza</returns>
+        public List<securityrealmType> getSecurityRealms()
+        {
 
+            List<securityrealmType> listrealms = new List<securityrealmType>();
+            IEnumerable<XElement> realms =
+                 from rs in serverconfig.Elements("security-realms")
+                 select rs;
+
+            foreach (XElement realm in realms)
+            {
+                // Recupero tutti i realm dentro il i realms
+                // Ovvero: 
+                IEnumerable<XElement> elem =
+                       from e in realm.Descendants("security-realm") select e;
+
+                foreach (XElement re in elem)
+                {
+                    securityrealmType srealm = new securityrealmType();
+                    srealm.name = re.Attribute("name").Value;
+
+                    IEnumerable<XElement> auth =
+                               from e in re.Descendants("authentication") select e;
+
+                    foreach (XElement a in auth)
+                    {
+
+                        IEnumerable<XElement> auth_attr =
+                              from e in re.Descendants("properties") select e;
+                        foreach (XElement p in auth_attr)
+                        {
+                            srealm.authentication.truststore.path = p.Attribute("path").Value;
+                            srealm.authentication.truststore.relativeto = p.Attribute("relative-to").Value;
+                        }
+                    }
+                }
+            }
+            return listrealms;
+        }
 
         /// <summary>
         /// Ritorna le socket da occupare e richieste. 
@@ -85,8 +132,9 @@ namespace MonoBoss.Kernel
         ///  - Deve essere necessariamente una socket dedicata al servizio di managment
         /// </summary>
         /// <returns></returns>
-        public List<socketbindinggroupType> getSocketBindGroup() {
-            throw new NotImplementedException("Not implemented yet"); 
+        public List<serversocketbindingsType> getSocketBindGroup()
+        {
+            throw new NotImplementedException("Not implemented yet");
         }
 
         /// <summary>
@@ -94,17 +142,18 @@ namespace MonoBoss.Kernel
         /// quanto specificato nelle interfacce
         /// </summary>
         /// <returns></returns>
-        public List<specifiedinterfaceType> getRequiredInterfaces() {
-            throw new NotImplementedException("Not implemented yet"); 
+        public List<specifiedinterfaceType> getRequiredInterfaces()
+        {
+            throw new NotImplementedException("Not implemented yet");
         }
 
         /// <summary>
-        /// Si recuperano tutti nel caso la modalità di start sia stata 
-        /// standalone 
+        /// Si recuperano tutto il prof
         /// </summary>
         /// <returns></returns>
-        public List<standaloneprofileType> getStandAloneProfile() {
-            throw new NotImplementedException("Not implemeted yet"); 
+        public List<standaloneprofileType> getStandAloneProfile()
+        {
+            throw new NotImplementedException("Not implemeted yet");
         }
 
         /// <summary>
@@ -112,9 +161,11 @@ namespace MonoBoss.Kernel
         /// caricato in modalità domain
         /// </summary>
         /// <returns></returns>
-        public List<domainprofileType> getDomainProfile() {
-            throw new NotImplementedException("Not implemented yet"); 
+        public List<domainprofileType> getDomainProfile()
+        {
+            throw new NotImplementedException("Not implemented yet");
         }
     }
 }
+
 

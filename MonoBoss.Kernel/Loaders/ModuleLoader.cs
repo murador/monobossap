@@ -42,6 +42,7 @@ namespace MonoBoss.Kernel.Loaders
 
 		public override void bootLoader (ServerInstance ist)
 		{
+            // Implementare in questo punto 
 			throw new NotImplementedException ();
 		}
 
@@ -59,7 +60,9 @@ namespace MonoBoss.Kernel.Loaders
 
 		public override void bootLoader (ServerInstance ist)
 		{
-			throw new NotImplementedException ();
+           
+
+
 		}
 
 		#endregion
