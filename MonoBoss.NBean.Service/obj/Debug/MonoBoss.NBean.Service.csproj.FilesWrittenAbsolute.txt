@@ -1,4 +1,5 @@
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.dll.mdb
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/bin/Debug/MonoBoss.NBean.Service.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/bin/Debug/MonoBoss.NBean.Service.dll
+/home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/obj/Debug/MonoBoss.NBean.Service.dll
+/home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/obj/Debug/MonoBoss.NBean.Service.dll.mdb

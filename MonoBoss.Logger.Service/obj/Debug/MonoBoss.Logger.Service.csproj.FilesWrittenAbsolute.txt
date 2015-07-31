@@ -1,4 +1,6 @@
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\bin\Debug\MonoBoss.Logger.Service.dll.mdb
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\bin\Debug\MonoBoss.Logger.Service.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\obj\Debug\MonoBoss.Logger.Service.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Logger.Service\obj\Debug\MonoBoss.Logger.Service.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Logger.Service/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/glutters/Documenti/monobossap/MonoBoss.Logger.Service/bin/Debug/MonoBoss.Logger.Service.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Logger.Service/bin/Debug/MonoBoss.Logger.Service.dll
+/home/glutters/Documenti/monobossap/MonoBoss.Logger.Service/obj/Debug/MonoBoss.Logger.Service.dll
+/home/glutters/Documenti/monobossap/MonoBoss.Logger.Service/obj/Debug/MonoBoss.Logger.Service.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Logger.Service/bin/Debug/NLog.dll

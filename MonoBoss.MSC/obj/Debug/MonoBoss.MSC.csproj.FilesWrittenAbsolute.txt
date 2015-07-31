@@ -1,4 +1,5 @@
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.dll.mdb
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.MSC/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/glutters/Documenti/monobossap/MonoBoss.MSC/bin/Debug/MonoBoss.MSC.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.MSC/bin/Debug/MonoBoss.MSC.dll
+/home/glutters/Documenti/monobossap/MonoBoss.MSC/obj/Debug/MonoBoss.MSC.dll
+/home/glutters/Documenti/monobossap/MonoBoss.MSC/obj/Debug/MonoBoss.MSC.dll.mdb

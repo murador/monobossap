@@ -55,7 +55,7 @@ namespace MonoBoss.Shell.Main
 			// fa partire l'ambiente 
 			// in questa fase vengono letti i parametri di instanza 
 			// del server
-			shell.startEnviroment (); 
+			shell.startEnviroment(); 
 
 		}
 	}

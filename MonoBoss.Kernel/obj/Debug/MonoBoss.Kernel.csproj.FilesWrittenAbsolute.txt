@@ -1,8 +1,5 @@
-C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll.mdb
-C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll
-C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
-C:\Users\asus\Documents\Projects\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll.mdb
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll.mdb
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\bin\Debug\MonoBoss.Kernel.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Kernel\obj\Debug\MonoBoss.Kernel.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Kernel/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/glutters/Documenti/monobossap/MonoBoss.Kernel/bin/Debug/MonoBoss.Kernel.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Kernel/bin/Debug/MonoBoss.Kernel.dll
+/home/glutters/Documenti/monobossap/MonoBoss.Kernel/obj/Debug/MonoBoss.Kernel.dll
+/home/glutters/Documenti/monobossap/MonoBoss.Kernel/obj/Debug/MonoBoss.Kernel.dll.mdb

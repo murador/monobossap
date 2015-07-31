@@ -1,4 +1,10 @@
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe.mdb
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\bin\Debug\MonoBoss.Shell.Main.exe
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.exe
-D:\MONOBOSS_TOOLKIT\MonoBoss\MonoBoss.Shell.Main\obj\x86\Debug\MonoBoss.Shell.Main.exe.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Shell.Main.exe.config
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Shell.Main.exe.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Shell.Main.exe
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/obj/x86/Debug/MonoBoss.Shell.Main.exe
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/obj/x86/Debug/MonoBoss.Shell.Main.exe.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Kernel.dll
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Kernel.dll.mdb
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Logger.Service.dll
+/home/glutters/Documenti/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Logger.Service.dll.mdb
