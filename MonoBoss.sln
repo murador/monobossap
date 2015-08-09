@@ -44,7 +44,4 @@ Global
 		{CBED6E9F-9053-480C-B810-7EA8408C682D}.Release|x86.ActiveCfg = Release|Any CPU
 		{CBED6E9F-9053-480C-B810-7EA8408C682D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MonoBoss.Shell.Main\MonoBoss.Shell.Main.csproj
-	EndGlobalSection
 EndGlobal

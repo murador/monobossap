@@ -170,14 +170,10 @@ namespace MonoBoss.Shell.Main
 				// 17/05/2015 - TODO, continuare ad implementare in questo punto 
 				ServerInstance serverInstance = sr.getServerInstance ();
 
-                 
 				mloader.bootLoader (serverInstance); 
- 
-
-				// 
+  
 				// mmloader.start(); 
-
-			     
+			 
 			} catch (Exception ex) {
 				throw new ShellException (ex.ToString ()); 
 			}

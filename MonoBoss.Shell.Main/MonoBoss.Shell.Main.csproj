@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{5E24410E-BCB6-4E9D-909B-83AFFC38205A}</ProjectGuid>
     <OutputType>Exe</OutputType>
@@ -51,7 +51,7 @@
       <Name>MonoBoss.Kernel</Name>
     </ProjectReference>
     <ProjectReference Include="..\MonoBoss.Logger.Service\MonoBoss.Logger.Service.csproj">
-      <Project>{8dbf6e5f-7bb0-428c-aaf3-070c33d45848}</Project>
+      <Project>{8DBF6E5F-7BB0-428C-AAF3-070C33D45848}</Project>
       <Name>MonoBoss.Logger.Service</Name>
     </ProjectReference>
   </ItemGroup>
