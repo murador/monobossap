@@ -2,4 +2,3 @@ C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Debug\MonoBoss.
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.pdb
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll
 C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.pdb
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.csprojResolveAssemblyReference.cache

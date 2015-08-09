@@ -3,3 +3,8 @@
 /home/glutters/Documenti/monobossap/MonoBoss.MSC/bin/Debug/MonoBoss.MSC.dll
 /home/glutters/Documenti/monobossap/MonoBoss.MSC/obj/Debug/MonoBoss.MSC.dll
 /home/glutters/Documenti/monobossap/MonoBoss.MSC/obj/Debug/MonoBoss.MSC.dll.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Debug\.NETFramework,Version=v4.0.AssemblyAttribute.cs
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.dll.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Debug\MonoBoss.MSC.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Debug\MonoBoss.MSC.dll.mdb

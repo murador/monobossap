@@ -3,3 +3,8 @@
 /home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/bin/Debug/MonoBoss.NBean.Service.dll
 /home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/obj/Debug/MonoBoss.NBean.Service.dll
 /home/glutters/Documenti/monobossap/MonoBoss.NBean.Service/obj/Debug/MonoBoss.NBean.Service.dll.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Debug\.NETFramework,Version=v4.0.AssemblyAttribute.cs
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.dll.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Debug\MonoBoss.NBean.Service.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Debug\MonoBoss.NBean.Service.dll.mdb

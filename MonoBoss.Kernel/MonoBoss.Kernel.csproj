@@ -35,6 +35,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\IServerInstance.cs" />
     <Compile Include="Common\ServerInstanceDomainModel.cs" />
     <Compile Include="Configuration\ConfigurationException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

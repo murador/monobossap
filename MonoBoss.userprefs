@@ -1,11 +1,11 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupItem="MonoBoss.Shell.Main/MonoBoss.Shell.Main.csproj">
+﻿<Properties GitUserInfo="UsingGIT" StartupItem="MonoBoss.Shell.Main\MonoBoss.Shell.Main.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Shell.Main/Shell/MonoBossShell.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Shell.Main\Shell\MonoBossShell.cs">
     <Files>
-      <File FileName="MonoBoss.Shell.Main/Shell/MonoBossShell.cs" Line="107" Column="5" />
-      <File FileName="MonoBoss.Shell.Main/Shell/AppConfigurations.cs" Line="32" Column="1" />
-      <File FileName="MonoBoss.Shell.Main/App.config" Line="1" Column="1" />
-      <File FileName="MonoBoss.Shell.Main/MonoShell.cs" Line="19" Column="2" />
+      <File FileName="MonoBoss.Shell.Main\Shell\MonoBossShell.cs" Line="102" Column="5" />
+      <File FileName="MonoBoss.Shell.Main\Shell\AppConfigurations.cs" Line="1" Column="1" />
+      <File FileName="MonoBoss.Shell.Main\App.config" Line="1" Column="1" />
+      <File FileName="MonoBoss.Shell.Main\MonoShell.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
