@@ -1,15 +1,18 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupItem="MonoBoss.Shell.Main\MonoBoss.Shell.Main.csproj">
+﻿<Properties GitUserInfo="UsingGIT" StartupItem="MonoBoss.Shell.Main\MonoBoss.Shell.Main.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Shell.Main\Shell\AppConfigurations.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoBoss.Logger.Service\NancyLoggerService.cs">
     <Files>
-      <File FileName="MonoBoss.Shell.Main\Shell\MonoBossShell.cs" Line="1" Column="1" />
-      <File FileName="MonoBoss.Shell.Main\Shell\AppConfigurations.cs" Line="12" Column="28" />
-      <File FileName="MonoBoss.Shell.Main\App.config" Line="1" Column="1" />
-      <File FileName="MonoBoss.Shell.Main\MonoShell.cs" Line="1" Column="1" />
+      <File FileName="MonoBoss.Shell.Main\Shell\ConfigurationManager.cs" Line="1" Column="1" />
+      <File FileName="MonoBoss.Shell.Main\Shell\AppConfigurations.cs" Line="32" Column="1" />
+      <File FileName="MonoBoss.Logger.Service\ILoggerService.cs" Line="32" Column="2" />
+      <File FileName="MonoBoss.Logger.Service\NancyLoggerService.cs" Line="47" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Kernel\Loaders\ModuleLoader.cs" line="45" column="1" />
+      <Breakpoint file="C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\Shell\MonoBossShell.cs" line="105" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <AuthorInfo Name="Gianfranco Murador" Email="murador@apache.org" Copyright="(C) GPL " Company="" Trademark="" />

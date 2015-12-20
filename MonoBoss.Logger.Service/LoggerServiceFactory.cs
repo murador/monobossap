@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 namespace MonoBoss.Logger.Service
 {
     public abstract class LoggerServiceFactory
-    {
+	{
         public abstract ILoggerService getLogger();
         public static LoggerServiceFactory instance;
 
@@ -38,15 +38,18 @@ namespace MonoBoss.Logger.Service
                throw new NullReferenceException("The logger instance is not setted"); 
             }
         }
+			
+	
 
     }
 
     public class NLoggerServiceFactory : LoggerServiceFactory
     {
 
+
         public override ILoggerService getLogger()
         {
-            return new NLoggerService();
+            return new NancyLoggerService();
         }
     }
 }

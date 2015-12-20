@@ -29,7 +29,9 @@ namespace MonoBoss.Logger.Service
 		void error(Exception ex); 
 		void warn (string message, string filesource, int line); 
 		void warn (string message); 
-	
+	    bool isDebugEnable (); 
+		void setLevel (LogLevel level); 
+		LogLevel getLevel(); 
 	}
 		
 }

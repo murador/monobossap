@@ -39,9 +39,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LoggerServiceFactory.cs" />
-    <Compile Include="NLoggerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ILoggerService.cs" />
+    <Compile Include="NancyLoggerService.cs" />
+    <Compile Include="Properties\LogLevel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
