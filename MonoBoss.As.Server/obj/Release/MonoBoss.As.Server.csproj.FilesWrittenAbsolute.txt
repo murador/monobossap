@@ -1,0 +1,3 @@
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\obj\Release\.NETFramework,Version=v4.0.AssemblyAttribute.cs
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\bin\Release\MonoBoss.As.Server.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.As.Server\obj\Release\MonoBoss.As.Server.dll

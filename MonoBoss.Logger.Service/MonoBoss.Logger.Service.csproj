@@ -33,6 +33,9 @@
       <HintPath>..\NLog2.mono2\NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="Nancy">
+      <HintPath>..\lib\net40\Nancy.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LoggerServiceFactory.cs" />

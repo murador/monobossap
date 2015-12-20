@@ -44,7 +44,7 @@ namespace MonoBoss.Shell.Main
 			Console.WriteLine ("\t-version version of Mono Module Loader");
 			Console.WriteLine ("\t-m Domain or StandAlone (deprecated)");
 			Console.WriteLine ("Licence GPL "); 
-			Console.WriteLine ("for any suggestions write to murador.gianfranco@gmail.com"); 
+			Console.WriteLine ("for any suggestions write to murador@apache.org"); 
 		}
 
 		/// <summary>

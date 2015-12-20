@@ -1,0 +1,4 @@
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Release\MonoBoss.NBean.Service.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Release\MonoBoss.NBean.Service.pdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Release\MonoBoss.NBean.Service.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Release\MonoBoss.NBean.Service.pdb

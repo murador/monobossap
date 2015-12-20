@@ -30,9 +30,7 @@ namespace MonoBoss.Logger.Service
 		void warn (string message, string filesource, int line); 
 		void warn (string message); 
 	
-
 	}
-
-
+		
 }
 

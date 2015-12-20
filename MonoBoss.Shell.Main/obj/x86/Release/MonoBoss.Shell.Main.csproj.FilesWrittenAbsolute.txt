@@ -1,0 +1,10 @@
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Release\.NETFramework,Version=v4.5.AssemblyAttribute.cs
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Shell.Main.exe.config
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Shell.Main.exe.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Shell.Main.exe
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Release\MonoBoss.Shell.Main.exe
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\obj\x86\Release\MonoBoss.Shell.Main.exe.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Kernel.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Kernel.dll.mdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Logger.Service.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.Shell.Main\bin\Release\MonoBoss.Logger.Service.dll.mdb

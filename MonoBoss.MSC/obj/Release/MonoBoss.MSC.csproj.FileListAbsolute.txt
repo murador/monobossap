@@ -1,0 +1,4 @@
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Release\MonoBoss.MSC.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Release\MonoBoss.MSC.pdb
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Release\MonoBoss.MSC.dll
+C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Release\MonoBoss.MSC.pdb
