@@ -1,0 +1,8 @@
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Shell.Main.exe.config
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Shell.Main.exe
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/obj/Debug/MonoBoss.Shell.Main.exe
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Kernel.dll
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Kernel.dll.mdb
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Logger.Service.dll
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.Shell.Main/bin/Debug/MonoBoss.Logger.Service.dll.mdb
