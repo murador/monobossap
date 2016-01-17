@@ -1,5 +1,10 @@
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Release\.NETFramework,Version=v4.5.AssemblyAttribute.cs
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Release\MonoBoss.NBean.Service.dll.mdb
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\bin\Release\MonoBoss.NBean.Service.dll
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Release\MonoBoss.NBean.Service.dll
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.NBean.Service\obj\Release\MonoBoss.NBean.Service.dll.mdb
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.NBean.Service/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.NBean.Service/bin/Release/MonoBoss.NBean.Service.dll.mdb
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.NBean.Service/bin/Release/MonoBoss.NBean.Service.dll
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.NBean.Service/obj/Release/MonoBoss.NBean.Service.dll
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.NBean.Service/obj/Release/MonoBoss.NBean.Service.dll.mdb
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.NBean.Service/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.NBean.Service/bin/Release/MonoBoss.NBean.Service.dll.mdb
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.NBean.Service/bin/Release/MonoBoss.NBean.Service.dll
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.NBean.Service/obj/Release/MonoBoss.NBean.Service.dll
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.NBean.Service/obj/Release/MonoBoss.NBean.Service.dll.mdb

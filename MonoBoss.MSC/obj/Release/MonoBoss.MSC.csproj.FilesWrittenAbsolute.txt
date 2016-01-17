@@ -1,5 +1,10 @@
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Release\.NETFramework,Version=v4.0.AssemblyAttribute.cs
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Release\MonoBoss.MSC.dll.mdb
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\bin\Release\MonoBoss.MSC.dll
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Release\MonoBoss.MSC.dll
-C:\Users\Gianfranco\Documents\GitHub\monobossap\MonoBoss.MSC\obj\Release\MonoBoss.MSC.dll.mdb
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.MSC/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.MSC/bin/Release/MonoBoss.MSC.dll.mdb
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.MSC/bin/Release/MonoBoss.MSC.dll
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.MSC/obj/Release/MonoBoss.MSC.dll
+C:/Users/Gianfranco/Documents/GitHub/monobossap/MonoBoss.MSC/obj/Release/MonoBoss.MSC.dll.mdb
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.MSC/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.MSC/bin/Release/MonoBoss.MSC.dll.mdb
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.MSC/bin/Release/MonoBoss.MSC.dll
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.MSC/obj/Release/MonoBoss.MSC.dll
+/home/glutters/Documenti/git_repos/monobossap/MonoBoss.MSC/obj/Release/MonoBoss.MSC.dll.mdb
